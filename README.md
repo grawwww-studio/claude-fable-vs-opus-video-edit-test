@@ -1,7 +1,7 @@
 # Claude Fable 5.2 against Opus 5.5 on the same video edit
 
 Material for episode 11 of the Grawwww Studio channel.
-- Video: VIDEO_URL_SLOT
+- Video: https://youtu.be/az5kADO3BW0
 
 ## What was tested
 
