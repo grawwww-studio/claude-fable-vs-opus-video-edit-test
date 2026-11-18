@@ -1,0 +1,113 @@
+{
+ "seconds": 48.792,
+ "effects": [
+  {
+   "fx": "slam",
+   "keep": "hook",
+   "at": "not that simple",
+   "t": 2.985
+  },
+  {
+   "fx": "kicker",
+   "keep": "mae",
+   "at": "one RTX 4090",
+   "t": 7.037
+  },
+  {
+   "fx": "broll",
+   "keep": "today",
+   "at": "Seconds, against her face",
+   "t": 15.283
+  },
+  {
+   "fx": "broll",
+   "keep": "each",
+   "at": "Same three seeds",
+   "t": 23.255
+  },
+  {
+   "fx": "broll",
+   "keep": "each",
+   "at": "Watch her eyes",
+   "t": 26.787
+  },
+  {
+   "fx": "broll",
+   "keep": "score",
+   "at": "So I watched them all",
+   "t": 32.74
+  },
+  {
+   "fx": "slam",
+   "keep": "point",
+   "at": "check the face",
+   "t": 44.888
+  }
+ ],
+ "ai": [
+  {
+   "n": 1,
+   "prompt": "Close shot of the test character, base model at 20 steps, no speed-up",
+   "dur": 3.3,
+   "piece_t": 15.28,
+   "covers": "Seconds, against her face",
+   "clip": "result01.mp4",
+   "model": "MiniMax H3 base, 20 steps",
+   "flags": []
+  },
+  {
+   "n": 2,
+   "prompt": "Close shot of the test character with the 8-step speed LoRA",
+   "dur": 3.5,
+   "piece_t": 23.25,
+   "covers": "Same three seeds",
+   "clip": "result03.mp4",
+   "model": "MiniMax H3 + 8-step speed LoRA",
+   "flags": []
+  },
+  {
+   "n": 3,
+   "prompt": "Close shot of the test character with the 4-step speed LoRA",
+   "dur": 3.4,
+   "piece_t": 26.79,
+   "covers": "Watch her eyes",
+   "clip": "result02.mp4",
+   "model": "MiniMax H3 + 4-step speed LoRA",
+   "flags": []
+  },
+  {
+   "n": 4,
+   "prompt": "Close shot of the test character with the 6-step speed LoRA",
+   "dur": 3.7,
+   "piece_t": 32.74,
+   "covers": "So I watched them all",
+   "clip": "result04.mp4",
+   "model": "MiniMax H3 + 6-step speed LoRA",
+   "flags": []
+  }
+ ],
+ "caption_words": 100,
+ "style_kit": null,
+ "checks": {
+  "limits": {
+   "slams_per_min": 3,
+   "slam_gap_s": 4.0,
+   "slam_words": 3,
+   "slam_chars": 16,
+   "kicker_words": 4,
+   "kicker_chars": 24,
+   "kicker_lines": 2,
+   "broll_s": [
+    2.5,
+    6.0
+   ],
+   "cold_open_s": 5.0,
+   "ground_s": 10.0,
+   "clip_hold_s": 0.5,
+   "clip_trim_s": 3.5
+  },
+  "glossary": [],
+  "slams": 2,
+  "kickers": 1
+ }
+}

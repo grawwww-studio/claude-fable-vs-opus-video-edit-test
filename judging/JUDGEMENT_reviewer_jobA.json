@@ -1,0 +1,119 @@
+{
+ "judge": "Claude Sonnet 5.5 (model made by Anthropic), judge 1, blind, job A",
+ "method": {
+  "viewing_order_source": "python3 random.SystemRandom().shuffle (real OS random source)",
+  "judging_order": ["F", "G", "H", "V", "U"],
+  "frames": "ffmpeg 4 fps over the full length, tiled 8x3 (24 frames = 6 s per sheet, 9 sheets per video); first 2 s at the native 24 fps tiled 8x6 (48 frames) for the opening criterion; frames reduced to 240 px wide for the sheets, so tiny mono labels were judged as legible-or-not at that size and at phone scale",
+  "audio": "audio not transcribed (no ASR tool available to me: whisper, faster-whisper and vosk are not installed). Caption sync judged from caption timing against mouth movement only. Loudness with ffmpeg ebur128: F -14.0 LUFS LRA 2.4; G -14.1 LUFS LRA 2.5; H -14.0 LUFS LRA 2.4; V -14.1 LUFS LRA 3.9; U -14.0 LUFS LRA 2.5.",
+  "temp_folder": "scratchpad jA folder outside the project",
+  "files_read": "five mp4 files, jobA/BRIEF.md, blind/SHEET.md, JUDGEMENT_reviewer_jobB.json (format only), BRAND.md. Nothing that reveals an origin was seen; no file sizes, bitrates, encoder strings or timestamps were inspected."
+ },
+ "videos": {
+  "F": {
+   "scores": {"opening_clarity": 2, "message_accuracy": 2, "pacing_structure": 2, "legibility": 1, "craft_polish": 1, "brand_sound": 2},
+   "reasons": {
+    "opening_clarity": "Frame 0 is the presenter talking with a 'AI VIDEO ON ONE GPU / SPEED VS FACE' title fading in at ~0.25 s, a '4.1X / 4-STEP SPEED LORA' card at ~1.2 s and word captions 'FEWER STEPS SHOULD MEAN FEWER'; topic and promise are clear by 2 s.",
+    "message_accuracy": "4.1X (1.2 s), 600 (~18-20 s), 147 (~28-30 s), 4-step LoRA and 20 steps present and consistent; count-ups pass through 488/598 and 34/136 as animation only; grid labels 267 s / 208 s could not be checked against TAKES.md.",
+    "pacing_structure": "Hook, claim, 600 vs 147 evidence, side-by-side grid (~32-37 s), 'NOT MEASURED' caveat, 'check the face' conclusion, end card 'FIVE SETTINGS ONE FACE / FULL EPISODE ON THE CHANNEL' held ~4 s; no sales line.",
+    "legibility": "Word captions are large (Anybody on a yellow band with dark text) and change in step with the mouth; but the four-up grid labels (~32-37 s) and the card sub-labels ('SECONDS A CLIP') are unreadable on a phone, and 'NOT THAT SIMPLE' and 'CHECK THE FACE' enter as a sliced glitch for ~0.25 s.",
+    "craft_polish": "Result clips are full-frame crops of 16:9 material and a 4-up grid is tiny; a blank dark card with only the AI tag at ~45.3 s before the end card and a black last frame at ~49.6 s; entrance slice effects are brief.",
+    "brand_sound": "Anybody and Spline Sans Mono, yellow only as a band behind dark text, AI tag intact on every frame checked; voice -14.0 LUFS, LRA 2.4 (even). Presence of quiet music not checked."
+   },
+   "total": 10,
+   "defects": [
+    "~32-37 s four-up grid: labels and faces too small on a phone",
+    "~45.3 s blank dark card and ~49.6 s black last frame",
+    "slice-glitch entrance on 'NOT THAT SIMPLE' (~3 s) and 'CHECK THE FACE' (~41 s)"
+   ],
+   "claims_check": "No wrong number seen; 267/208 and 'five settings' not verifiable without TAKES.md."
+  },
+  "G": {
+   "scores": {"opening_clarity": 1, "message_accuracy": 1, "pacing_structure": 2, "legibility": 1, "craft_polish": 1, "brand_sound": 2},
+   "reasons": {
+    "opening_clarity": "At 0 s a two-pane split of near-identical talking heads on a dark card with cyan caption 'FEWER' and tiny mono labels (BASE 20 STEPS 600 S / 4-STEP LORA 147 S); something is happening but no title or headline, so the point (speed vs face) is only clear after the first sentence (~2.5-3 s) and the hard cut to the presenter at ~8.5 s.",
+    "message_accuracy": "600 and 147 appear only as tiny labels; 4.1 times is never shown on screen (checked every sheet); the speed-up headline is therefore not findable without the voice. Nothing invented seen.",
+    "pacing_structure": "Clear beginning (question over split), presenter intro with lower third at ~10 s, one-by-one results, side-by-side at ~32-40 s, 'not measured' and 'check the face', end card 'SPEED-UPS VS HER FACE / LAST WEEK'S EPISODE' ~5 s.",
+    "legibility": "Big cyan/white word captions are readable and in step, but 'NOT SIMPLE' stays sliced/striped for ~1.25 s (~5.2-6.5 s) and is hard to read; numbers only in tiny labels; 'HER FACE' also glitch-enters.",
+    "craft_polish": "Same persistent slice glitch on the early caption; the split-screen with a yellow keyline around the 4-step tile at ~36-40 s is a purposeful marker; black frame at the end of the end card.",
+    "brand_sound": "Anybody, Spline Mono labels, cyan on dark card, AI tag intact, lower third in light mode; voice -14.1 LUFS, LRA 2.5 (even)."
+   },
+   "total": 8,
+   "defects": [
+    "600, 147 and the 4.1x never shown at a readable size",
+    "~5.2-6.5 s 'NOT SIMPLE' sliced",
+    "no title or headline in the first 2 s"
+   ],
+   "claims_check": "No wrong figure; the headline figure is missing from the picture."
+  },
+  "H": {
+   "scores": {"opening_clarity": 2, "message_accuracy": 2, "pacing_structure": 2, "legibility": 1, "craft_polish": 1, "brand_sound": 2},
+   "reasons": {
+    "opening_clarity": "Title fading in at ~0.25 s, '4.1X' card at ~1.2 s, captions 'FEWER STEPS SHOULD MEAN FEWER'; clear by 2 s. On the frames I compared it looked the same as F.",
+    "message_accuracy": "4.1X, 600, 147, 20 steps and 4-step LoRA present; count-up transients (488, 598, 34, 136) as animation; grid labels unverified against TAKES.md.",
+    "pacing_structure": "Same structure as the video I scored first in this set: hook, 600 vs 147, grid, caveat, conclusion, end card held ~4 s.",
+    "legibility": "Large yellow-band captions in step; tiny labels in the four-up grid and in card sub-lines; slice entrance on 'NOT THAT SIMPLE' and 'CHECK THE FACE'.",
+    "craft_polish": "Blank dark card at ~45.3 s and a black last frame at ~49.6 s; tiny grid; brief entrance slices.",
+    "brand_sound": "Anybody and Spline Sans Mono, yellow only as a band behind dark text, AI tag intact; voice -14.0 LUFS, LRA 2.4."
+   },
+   "total": 10,
+   "defects": [
+    "~32-37 s four-up grid labels too small",
+    "~45.3 s blank card and ~49.6 s black last frame",
+    "slice-glitch entrance on two captions"
+   ],
+   "claims_check": "Same as above; no wrong number seen."
+  },
+  "V": {
+   "scores": {"opening_clarity": 1, "message_accuracy": 1, "pacing_structure": 2, "legibility": 1, "craft_polish": 1, "brand_sound": 1},
+   "reasons": {
+    "opening_clarity": "Split-screen of two similar talking heads at 0 s with yellow caption 'FEWER' and tiny labels 'BASE 20 STEPS 600 S A CLIP / 4-STEP LORA 147 S A CLIP'; activity but no title or headline, topic clear only by ~3 s.",
+    "message_accuracy": "600 card (~21-23 s), 147 card (~35-37 s) with '4.1 TIMES AS FAST' in a tiny sub-line, '5 SETTINGS' end card; but the grid shows '2.2X AS FAST' and '2.9X AS FAST', which I could not find in the brief and could not check against TAKES.md; count-ups pass 253/578 and 62/142 as animation.",
+    "pacing_structure": "Question-over-split hook, presenter intro, one-by-one results, grid, 'what I didn't measure', conclusion and a framed end card; ends on a white plate '5 SETTINGS / THE FULL EPISODE' over the presenter, ~3 s, then black.",
+    "legibility": "Yellow captions are large and in step, but at ~11-13 s two caption lines stack ('ONE RTX 4090' stays while 'I TIME' appears) and 'RTX 4090' is typed letter by letter; '4.1 TIMES AS FAST' is a tiny sub-line.",
+    "craft_polish": "A stray '90' glyph floats at chest height at ~14.5 s after the typed 'ONE RTX 4090'; 'CHECK THE FACE' enters blurred/sliced at ~40.5 s; otherwise plain.",
+    "brand_sound": "Fonts and AI tag correct, but captions are set in yellow #FFD400 as a text colour across the whole video, which the brief and BRAND.md forbid (yellow only as a marker band behind dark text); voice -14.1 LUFS, LRA 3.9 (slightly less even than the others)."
+   },
+   "total": 7,
+   "defects": [
+    "yellow used as the caption text colour throughout",
+    "~11-13 s stacked captions and a stray '90' glyph at ~14.5 s",
+    "2.2X / 2.9X labels not verifiable, 4.1 times only in a tiny sub-line"
+   ],
+   "claims_check": "2.2X and 2.9X are not in the brief; unverified against TAKES.md, which I may not read."
+  },
+  "U": {
+   "scores": {"opening_clarity": 1, "message_accuracy": 1, "pacing_structure": 2, "legibility": 1, "craft_polish": 1, "brand_sound": 2},
+   "reasons": {
+    "opening_clarity": "Split-screen at 0 s with cyan caption 'FEWER' and tiny labels 'BASE MODEL 20 STEPS 600 S A CLIP / 4-STEP SPEED LORA 147 S A CLIP'; no title, so the point is understood by ~3 s but not at second 2.",
+    "message_accuracy": "600 and 147 only as tiny labels, '2.2X' and '2.9X' labels in the grid (not in the brief, unverified), and the 4.1X headline appears only on the end card at ~46 s (after a 1.7X, 3.9X count-up) with 'AS FAST AT 4 STEPS, STILL CHECK HER EYES'.",
+    "pacing_structure": "Hook, presenter intro, results, grids, conclusion and a 4.1X end card held ~4 s; the headline figure arrives last, which gives a clear ending but delays the payoff.",
+    "legibility": "Cyan and white word captions are large and in step; but the closing 'CHECK THE FACE' stays sliced/striped for ~2.5 s (~44.5-47 s) and is unreadable, and the grid labels are tiny.",
+    "craft_polish": "Persistent slice glitch on the closing caption for ~2.5 s; dark end card with a black last frame; the rest is plain and clean.",
+    "brand_sound": "Anybody, Spline Sans Mono, cyan on dark, light end card with dark text, AI tag intact on every frame; voice -14.0 LUFS, LRA 2.5 (even)."
+   },
+   "total": 8,
+   "defects": [
+    "~44.5-47 s 'CHECK THE FACE' sliced and unreadable",
+    "4.1X only at the very end; 600 and 147 only in tiny labels",
+    "2.2X / 2.9X labels not verifiable"
+   ],
+   "claims_check": "No wrong number seen; 2.2X/2.9X unverified."
+  }
+ },
+ "common_defects": [
+  "Entrance slice/glitch on one or two key captions in every video; in G and U it persists for 1.25-2.5 s and hides the caption.",
+  "Tiny mono labels in the split-screen and grid scenes are not readable at phone size (all five).",
+  "Result clips (16:9 material) are shown as small tiles or heavy crops; G, V and U open on two almost identical talking heads with no title.",
+  "Count-up numbers pass through values that are not in the brief (animation only).",
+  "A black or blank last frame after the end card in all five."
+ ],
+ "ranking": ["F", "H", "G", "U", "V"],
+ "separator": "F and H put a title, the 4.1X claim and the captions on screen inside the first 1.2 s; G, U and V open on an untitled split with micro labels, and V also uses yellow as a text colour and U/G lose a key caption to a long slice glitch.",
+ "could_not_check": [
+  "Audio was not transcribed (no ASR tool available); caption wording and sync were judged from the picture only.",
+  "Figures such as 267 s, 208 s, 2.2X, 2.9X and 'five settings' could not be checked: material/TAKES.md is outside what I was allowed to read.",
+  "Whether music or effects sit under the voice: loudness numbers were measured, but voice and bed were not separated, so I could not confirm that any bed exists or that it is quiet.",
+  "Frames were viewed at 240 px wide, so fine type at the real 1080x1920 size was judged by size, not by pixel inspection.",
+  "F and H looked identical on every frame I viewed; I scored what I saw each time and did not compare the files."
+ ]
+}

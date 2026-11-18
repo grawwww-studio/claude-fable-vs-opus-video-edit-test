@@ -1,0 +1,40 @@
+version: 1
+piece: "short-speedups-vs-face"
+route: client
+format: {size: [1080, 1920], fps: 24}
+source: {video: ../material/takes/take06.mp4, words: ../material/words/take06.json}
+keep:
+  - {id: hook,   src: ../material/takes/take06.mp4, words: ../material/words/take06.json, from: 0.0, to: 4.45, role: cold-open}
+  - {id: who,    src: ../material/takes/take01.mp4, words: ../material/words/take01.json, from: 1.45, to: 6.7}
+  - {id: today,  src: ../material/takes/take02.mp4, words: ../material/words/take02.json, from: 0.0, to: 6.55}
+  - {id: stakes, src: ../material/takes/take03.mp4, words: ../material/words/take03.json, from: 1.42, to: 5.7}
+  - {id: setup,  src: ../material/takes/take04.mp4, words: ../material/words/take04.json, from: 0.0, to: 3.3}
+  - {id: each,   src: ../material/takes/take05.mp4, words: ../material/words/take05.json, from: 0.0, to: 6.95}
+  - {id: side,   src: ../material/takes/take07.mp4, words: ../material/words/take07.json, from: 0.0, to: 5.45}
+  - {id: limits, src: ../material/takes/take10.mp4, words: ../material/words/take10.json, from: 0.0, to: 5.8}
+  - {id: point,  src: ../material/takes/take09.mp4, words: ../material/words/take09.json, from: 0.0, to: 4.95}
+look:
+  font: ../brand/anybody-latin-wdth-normal.woff2
+  weight: 900
+  case: upper
+  ink: "#111111"
+  plate: "#FBFBFA"
+  accent: "#FFD400"
+  band_ink: "#111111"
+  fill: "#FBFBFA"
+  outline: "#111111"
+  outline_w: 0.10
+  contrast: auto
+  card: {ground: "#0E0E0E", ink: "#F4F4F1", accent: "#FFD400", muted: "#8E8E8A"}
+captions: {size: 36, position: 0.8}
+streamer: {preset: streamer_v5_3, replay_hook: false, header: {text: "AI VIDEO: SPEED-UPS VS FACE"}}
+limits: {broll_s: [1.5, 6.0], clip_trim_s: 4.5}
+effects:
+  - {keep: hook, at: "should mean", do: broll, clip: ../material/results/result08.mp4, dur: 1.7,
+     prompt: "Close shot of the test character talking to camera, 4-step speed LoRA, second seed", model: "MiniMax H3 + 4-step speed LoRA"}
+  - {keep: hook, at: "not that simple", do: slam, text: "NOT THAT SIMPLE", cap: 50, dur: 1.3}
+  - {keep: today, at: "for Minimax", do: broll, clip: ../material/results/result01.mp4, dur: 3.0,
+     prompt: "Close shot of the test character talking to camera, base model at 20 steps, no speed-up", model: "MiniMax H3 base, 20 steps"}
+  - {keep: each, at: "same three seeds", do: broll, clip: ../material/results/result02.mp4, dur: 5.4,
+     prompt: "Close shot of the test character talking to camera, 4-step speed LoRA setting", model: "MiniMax H3 + 4-step speed LoRA"}
+  - {keep: point, at: "check the face", do: slam, text: "CHECK THE FACE", cap: 52, dur: 1.6}

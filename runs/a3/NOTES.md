@@ -1,0 +1,11 @@
+# Job A notes: "Speed-ups vs her face" Short
+
+- Made: `out/short.mp4`, 1080x1920, 24 fps, 51.5 s, voice only. Chain: `work/t.yaml` (treatment) -> `ed treat` -> `work/t.events.yaml` -> `work/build.py` adds the hand-placed events -> `work/e.yaml` (the rendered, verified edit file).
+- Story: hook "Fewer steps should mean fewer seconds. It's not that simple." over the same clip twice, stacked and labelled BASE · 20 STEPS · 600 S / 4-STEP LORA · 147 S (topic readable from frame 0). Then Mae's intro, the test (speed-ups, seconds against her face), the test character in a tile while Mae says why the face matters, "one character, one card, one session", face score vs watching side by side. Next, a 2x2 grid of base / 8-step / 6-step / 4-step clips with their seconds (punch-in on the 4-step tile at "watch her eyes and freckles"), what was not measured, and the point "check the face, not just the clock". It ends on a dark card pointing to last week's full episode: no sale, no studio name.
+- Captions: the recogniser misheard some words. I corrected them in `work/words/` (`work/fixwords.py`: Mae, one RTX, speed-ups, MiniMax H3, lip-sync), so the burned-in captions match TAKES.md.
+- Brand: the active caption word and the end-card kicker are cyan, not the default yellow, because the brief allows yellow only as a band.
+- Numbers on screen come only from TAKES.md: 600, 267, 208 and 147 s; 20, 8, 6 and 4 steps.
+- Left out: take08 ("Here's what I'd actually use"), because the material has no recommendation to follow it. I kept take03 even though it says "last time", because it shows why the face matters.
+- Tried, did not work: result clips as treatment b-roll (`aiclip`). On 9:16 they were a blurry 2.5x crop, the panel covered the eyes and the AI-GENERATED tag left the title-safe area, so I replaced them with grid tiles. One-line slams at cap 110 do not fit 1080 px wide, so I used shorter text and lower caps. The end-card `cap` scales by about 1.8x on a portrait frame, so I lowered it to 44. A "SPEED-UP TEST" title over the hook hid the captions, so I dropped it and made "NOT SIMPLE" sliced instead, which satisfies the T1 default.
+- Not done: no music bed (optional in the brief).
+- Result: `bin/ed verify work/e.yaml` passes check, lint and defaults (all `ok`). One render. h264 + AAC, voice mastered to -14 LUFS (render report).

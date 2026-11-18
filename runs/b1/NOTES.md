@@ -1,0 +1,13 @@
+# Job B notes
+- Delivered: `out/explainer_v2.mp4` (1920x1080, 24 fps, 20.00 s, h264, no audio) from `work/explainer_v2.yaml`; `bin/ed verify` ends check/lint/defaults all `ok`. 2 of 4 renders used.
+- `out/explainer.mp4` (+ `work/explainer.yaml`) is the first render, kept only as history; v2 is the newest and the one that counts.
+- Six shots, the brief's text in order: title card (we timed / one video clip, two ways / same graphics card), 20 steps -> 600 s, 4-step LoRA -> 147 s, both side by side, "THAT IS 4.1 TIMES AS FAST", "FEWER STEPS / FEWER SECONDS".
+- Every number is on screen (20, 600, 4, 147, 4.1) and no other number appears.
+- Shapes: the bars are a plate I drew with `work/plate_v2.py` (shapes only, no type), to scale: 600 s = 1600 px, 147 s = 392 px, both filling at the same speed, so the short one stops early. The 600 count-up runs with its bar.
+- Decision: 4.1 sits alone on the yellow marker band in its own shot. With the magenta and cyan panels it was refused ("3 process colours on screen"), so the comparison and the ratio are two shots.
+- Decision: no sound. It was optional and I found no documented sound layer for a hand-written edit; I did not guess.
+- Did not work: `kin` `whisper` prints the line twice (a yellow chip plus the big type); `marquee` crashes without `rows`; `jump` ignores `dur` and ran into the next shot (overlap hits), so the lead-in lines are slams.
+- Did not work: the plate as mp4v shifted the colours (greenish paper, pale magenta); FFV1 in .mkv is exact.
+- Details for the next person: `kin` `place` is in pixels (`{cx, cy, cap}`), not fractions; a panel's crop marks must stay 40 px off the AI tag; leave about 0.6 s between texts in the same area.
+- Not checked: I looked at stills, not at the moving video (no player here), so the feel of the animation is unseen.
+- Weak spots: the lead-in lines leave 0.5 s before each cut (needed for the overlap rule); figures sit left in their panels (the panel's own layout).

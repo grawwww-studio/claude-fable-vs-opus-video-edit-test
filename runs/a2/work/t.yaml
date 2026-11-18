@@ -1,0 +1,33 @@
+version: 1
+piece: "speed-ups vs her face (short)"
+route: client
+format: {size: [1080, 1920], fps: 24}
+source: {video: ../material/takes/take06.mp4, words: words/take06.json}
+glossary: [Mae, MiniMax, RTX]
+keep:
+  - {id: hook,   from: 0.0,  to: 4.40, role: cold-open}
+  - {id: intro,  src: ../material/takes/take01.mp4, words: words/take01.json, from: 0.0,  to: 6.60}
+  - {id: topic,  src: ../material/takes/take02.mp4, words: words/take02.json, from: 0.0,  to: 6.50}
+  - {id: before, src: ../material/takes/take03.mp4, words: words/take03.json, from: 1.45, to: 5.62}
+  - {id: setup,  src: ../material/takes/take04.mp4, words: words/take04.json, from: 0.0,  to: 3.25}
+  - {id: method, src: ../material/takes/take05.mp4, words: words/take05.json, from: 0.0,  to: 6.90}
+  - {id: watch,  src: ../material/takes/take07.mp4, words: words/take07.json, from: 0.0,  to: 5.40}
+  - {id: limits, src: ../material/takes/take10.mp4, words: words/take10.json, from: 0.0,  to: 5.72}
+  - {id: point,  src: ../material/takes/take09.mp4, words: words/take09.json, from: 0.0,  to: 4.95}
+look:
+  font: ../brand/anybody-latin-wdth-normal.woff2
+  weight: 900
+  case: upper
+  ink: "#111111"
+  plate: "#FBFBFA"
+  accent: "#FFD400"
+  band_ink: "#111111"
+  fill: "#FBFBFA"
+  outline: "#111111"
+  outline_w: 0.10
+  contrast: auto
+  card: {ground: "#0E0E0E", ink: "#F4F4F1", accent: "#FFD400", muted: "#8E8E8A"}
+captions: {size: 36, position: 0.8}
+effects:
+  # the result clips and their seconds are added by work/finish.py as grid shots (dark card, moving tiles)
+  - {keep: point, at: "check the face", do: slam, text: "CHECK THE FACE", cap: 50, dur: 1.8}

@@ -1,0 +1,538 @@
+# short-speedups-vs-face
+# Written by `ed treat` from a treatment (phrases -> effects); every position, card, lint and sound is the engine's.
+version: 1
+piece: short-speedups-vs-face
+fps: 24
+size:
+- 1080
+- 1920
+mosca: true
+camera_blur: true
+crf: 20
+bitrate: 3M
+route: client
+look:
+  font: brand/anybody-latin-wdth-normal.woff2
+  weight: 900
+  case: upper
+  ink: '#111111'
+  plate: '#FBFBFA'
+  accent: '#FFD400'
+  band_ink: '#111111'
+  fill: '#FBFBFA'
+  outline: '#111111'
+  outline_w: 0.1
+  contrast: auto
+  card:
+    ground: '#0E0E0E'
+    ink: '#F4F4F1'
+    accent: '#FFD400'
+    muted: '#8E8E8A'
+captions:
+  style:
+    font: brand/anybody-latin-wdth-normal.woff2
+    fill: '#FBFBFA'
+    outline: '#000000'
+    outline_w: 0.12
+    highlight: '#FFD84A'
+    position: 0.64
+    size: 44
+    case: upper
+    weight: 900
+    contrast: auto
+    keywords:
+      color: '#3DDC97'
+      words:
+      - FEWER
+      - STEPS
+      - CHECK
+      - FACE
+burn_cap: 0.58
+talk:
+  takes:
+  - src: material/takes/take06.mp4
+    words: material/words/take06.json
+    from: 0.0
+    to: 4.45
+  - src: material/takes/take01.mp4
+    words: material/words/take01.json
+    from: 1.45
+    to: 6.7
+  - src: material/takes/take02.mp4
+    words: material/words/take02.json
+    from: 0.0
+    to: 6.55
+  - src: material/takes/take03.mp4
+    words: material/words/take03.json
+    from: 1.42
+    to: 5.7
+  - src: material/takes/take04.mp4
+    words: material/words/take04.json
+    from: 0.0
+    to: 3.3
+  - src: material/takes/take05.mp4
+    words: material/words/take05.json
+    from: 0.0
+    to: 6.95
+  - src: material/takes/take07.mp4
+    words: material/words/take07.json
+    from: 0.0
+    to: 5.45
+  - src: material/takes/take10.mp4
+    words: material/words/take10.json
+    from: 0.0
+    to: 5.8
+  - src: material/takes/take09.mp4
+    words: material/words/take09.json
+    from: 0.0
+    to: 4.95
+  jump:
+    pause_ms: 400
+    leave_ms: 140
+    ceiling_db: auto
+  ab:
+    every_s: 4.5
+    min_shot_s: 1.5
+  follow: true
+  cut_zoom:
+    levels:
+    - 1.0
+    - 1.12
+    - 1.25
+    d: 0.25
+    avoid:
+    - - -0.333
+      - 1.617
+    - - 43.638
+      - 45.788
+events:
+- t: 0
+  type: podcast
+  id: caps
+  words:
+  - - Fewer
+    - 0.0
+    - 0.56
+  - - steps
+    - 0.56
+    - 0.88
+  - - should
+    - 0.88
+    - 1.28
+  - - mean
+    - 1.28
+    - 1.58
+  - - fewer
+    - 1.58
+    - 1.94
+  - - seconds.
+    - 1.94
+    - 2.46
+  - - It's
+    - 2.688
+    - 3.068
+  - - not
+    - 3.068
+    - 3.228
+  - - that
+    - 3.228
+    - 3.528
+  - - simple.
+    - 3.528
+    - 3.888
+  - - I
+    - 4.268
+    - 4.528
+  - - make
+    - 4.528
+    - 4.748
+  - - AI
+    - 4.748
+    - 5.088
+  - - video
+    - 5.088
+    - 5.488
+  - - 'on'
+    - 5.488
+    - 5.828
+  - - 1RTX
+    - 5.828
+    - 6.828
+  - - '4090'
+    - 6.828
+    - 7.468
+  - - and
+    - 7.468
+    - 7.908
+  - - I
+    - 7.908
+    - 8.208
+  - - time
+    - 8.208
+    - 8.528
+  - - everything.
+    - 8.528
+    - 9.128
+  - - Today,
+    - 9.417
+    - 9.937
+  - - the
+    - 10.317
+    - 10.497
+  - - speed
+    - 10.497
+    - 10.677
+  - - -ups
+    - 10.677
+    - 10.897
+  - - people
+    - 10.897
+    - 11.177
+  - - recommend
+    - 11.177
+    - 11.737
+  - - for
+    - 11.737
+    - 12.037
+  - - Minimax
+    - 12.037
+    - 12.637
+  - - AH
+    - 12.637
+    - 13.037
+  - - -3,
+    - 13.037
+    - 13.777
+  - - seconds
+    - 14.117
+    - 14.477
+  - - against
+    - 14.477
+    - 15.117
+  - - her
+    - 15.117
+    - 15.417
+  - - face.
+    - 15.417
+    - 15.717
+  - - Last
+    - 16.082
+    - 16.342
+  - - time,
+    - 16.342
+    - 16.702
+  - - a
+    - 16.882
+    - 17.082
+  - - refiner
+    - 17.082
+    - 17.462
+  - - redrew
+    - 17.462
+    - 17.842
+  - - her
+    - 17.842
+    - 18.142
+  - - face
+    - 18.142
+    - 18.382
+  - - in
+    - 18.382
+    - 18.702
+  - - six
+    - 18.702
+    - 19.002
+  - - runs
+    - 19.002
+    - 19.362
+  - - of
+    - 19.362
+    - 19.682
+  - - six.
+    - 19.682
+    - 19.982
+  - - One
+    - 20.25
+    - 20.61
+  - - character,
+    - 20.61
+    - 21.13
+  - - one
+    - 21.59
+    - 21.85
+  - - card,
+    - 21.85
+    - 22.19
+  - - one
+    - 22.69
+    - 22.91
+  - - session.
+    - 22.91
+    - 23.31
+  - - Now
+    - 23.542
+    - 23.902
+  - - each
+    - 23.902
+    - 24.242
+  - - one.
+    - 24.242
+    - 24.782
+  - - Same
+    - 24.922
+    - 25.262
+  - - three
+    - 25.262
+    - 25.562
+  - - seeds,
+    - 25.562
+    - 25.942
+  - - both
+    - 26.342
+    - 26.622
+  - - shots,
+    - 26.622
+    - 27.042
+  - - all
+    - 27.362
+    - 27.562
+  - - at
+    - 27.562
+    - 27.742
+  - - once.
+    - 27.742
+    - 28.042
+  - - Watch
+    - 28.453
+    - 28.653
+  - - her
+    - 28.653
+    - 28.893
+  - - eyes
+    - 28.893
+    - 29.273
+  - - and
+    - 29.273
+    - 29.573
+  - - freckles.
+    - 29.573
+    - 30.053
+  - - a
+    - 30.292
+    - 30.612
+  - - face
+    - 30.612
+    - 30.812
+  - - score
+    - 30.812
+    - 31.192
+  - - only
+    - 31.192
+    - 31.632
+  - - looks
+    - 31.632
+    - 31.872
+  - - at
+    - 31.872
+    - 32.072
+  - - the
+    - 32.072
+    - 32.252
+  - - face.
+    - 32.252
+    - 32.612
+  - - So
+    - 32.782
+    - 33.182
+  - - I
+    - 33.182
+    - 33.522
+  - - watched
+    - 33.522
+    - 33.762
+  - - them
+    - 33.762
+    - 34.062
+  - - all
+    - 34.062
+    - 34.422
+  - - side
+    - 34.422
+    - 34.702
+  - - by
+    - 34.702
+    - 34.982
+  - - side.
+    - 34.982
+    - 35.262
+  - - What
+    - 35.5
+    - 35.68
+  - - I
+    - 35.68
+    - 35.92
+  - - didn't
+    - 35.92
+    - 36.26
+  - - measure.
+    - 36.26
+    - 36.78
+  - - Lip
+    - 37.18
+    - 37.4
+  - - sync,
+    - 37.4
+    - 37.68
+  - - motion,
+    - 38.12
+    - 38.56
+  - - other
+    - 39.06
+    - 39.28
+  - - characters,
+    - 39.28
+    - 39.86
+  - - longer
+    - 40.42
+    - 40.6
+  - - clips.
+    - 40.6
+    - 41.04
+  - - If
+    - 41.292
+    - 41.472
+  - - your
+    - 41.472
+    - 41.792
+  - - character
+    - 41.792
+    - 42.092
+  - - has
+    - 42.092
+    - 42.392
+  - - to
+    - 42.392
+    - 42.692
+  - - stay
+    - 42.692
+    - 42.872
+  - - your
+    - 42.872
+    - 43.172
+  - - character,
+    - 43.172
+    - 43.632
+  - - check
+    - 43.972
+    - 44.212
+  - - the
+    - 44.212
+    - 44.492
+  - - face,
+    - 44.492
+    - 44.792
+  - - not
+    - 45.152
+    - 45.332
+  - - just
+    - 45.332
+    - 45.572
+  - - the
+    - 45.572
+    - 45.772
+  - - clock.
+    - 45.772
+    - 45.972
+  max_words: 3
+  max_w: 0.88
+  max_chars: 15
+  word_gap: 0.62
+  pop_from: 1.08
+  band_y: 0.64
+  band_follow: true
+- t: 0
+  type: header
+  id: header
+  cap: 19
+  y: 0.085
+  text: 'AI VIDEO SPEED-UPS: SECONDS VS HER FACE'
+- t: -0.083
+  type: kin
+  kind: slam
+  id: slam_fewersteps
+  text: FEWER STEPS
+  caps:
+  - 110
+  - 88
+  - 72
+  place: auto
+  place_opts:
+    prefer:
+    - c
+    - lc
+    - uc
+    - ml
+    - mr
+  dur: 1.4s
+  kick: 0.02
+- t: 11.737
+  type: aiclip
+  id: ai1
+  slot: 1/2
+  src: material/results/result01.mp4
+  dur: 3.0000s
+  prompt: Close shot of the test character talking to camera, base model at 20 steps, no speed-up
+  model: MiniMax H3 base, 20 steps
+  flags: []
+  fit: auto
+  hold_max_s: 0.5
+  trim_max_s: 4.5
+  tag: {}
+- t: 24.922
+  type: aiclip
+  id: ai2
+  slot: 2/2
+  src: material/results/result02.mp4
+  dur: 5.4000s
+  prompt: Close shot of the test character talking to camera, 4-step speed LoRA setting
+  model: MiniMax H3 + 4-step speed LoRA
+  flags: []
+  fit: auto
+  hold_max_s: 0.5
+  trim_max_s: 4.5
+  tag: {}
+- t: 43.888
+  type: kin
+  kind: slam
+  id: slam_checktheface
+  text: CHECK THE FACE
+  caps:
+  - 90
+  - 72
+  - 58
+  place: auto
+  place_opts:
+    prefer:
+    - c
+    - lc
+    - uc
+    - ml
+    - mr
+  dur: 1.6s
+  kick: 0.02
+- t: 0.0
+  type: flash
+  n: 3
+  peak: 0.4
+- t: 43.888
+  type: flash
+  n: 3
+  peak: 0.4
+- t: 0.0
+  type: kick
+  amt: 0.12
+  d: 0.3
+- t: 43.888
+  type: kick
+  amt: 0.12
+  d: 0.3

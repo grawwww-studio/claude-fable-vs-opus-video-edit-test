@@ -1,0 +1,28 @@
+version: 1
+fps: 24
+size: [1920, 1080]
+free_cuts: true
+end: 20s
+events:
+  # 1. We timed one video clip two ways on the same graphics card.
+  - {t: 0s, type: cut, id: s1, color: "#0E0E0E"}
+  - {t: 0.2s, type: titlecard, lines: ["WE TIMED ONE", "VIDEO CLIP", "TWO WAYS"], sub: "ON THE SAME GRAPHICS CARD", dur: 3.1s}
+  # 2. With the standard 20 steps it took 600 seconds.
+  - {t: 3.6s, type: cut, id: s2, src: work/bg.mp4, ss: 3.6}
+  - {t: 3.9s, type: panel, id: p600, x: 144, y: 220, w: 1100, label: "WITH THE STANDARD 20 STEPS IT TOOK",
+     figures: [{text: "600", sub: "SECONDS", ink: cyan_ink, size: 300}], dur: 3.9s}
+  # 3. With a 4-step speed LoRA it took 147 seconds.
+  - {t: 8.2s, type: cut, id: s3, src: work/bg.mp4, ss: 8.2}
+  - {t: 8.5s, type: panel, id: p147, x: 144, y: 220, w: 1100, label: "WITH A 4-STEP SPEED LORA IT TOOK",
+     figures: [{text: "147", sub: "SECONDS", ink: magenta_ink, size: 300}], dur: 3.7s}
+  # 4. That is 4.1 times as fast.
+  - {t: 12.6s, type: cut, id: s4, src: work/bg.mp4, ss: 12.6}
+  - {t: 12.8s, type: panel, id: pa, x: 144, y: 215, w: 740, label: "20 STEPS",
+     figures: [{text: "600", sub: "SECONDS", ink: cyan_ink, size: 200}], dur: 4.0s}
+  - {t: 13.3s, type: panel, id: pb, x: 1036, y: 215, w: 740, label: "4-STEP SPEED LORA",
+     figures: [{text: "147", sub: "SECONDS", ink: magenta_ink, size: 200}], dur: 3.5s}
+  - {t: 14.2s, type: kin, kind: slam, text: "4.1 TIMES AS FAST", color: "#F4F4F1", cap: 78, place: {cx: 960, cy: 690}, dur: 2.5s, kick: 0.03}
+  # 5. Fewer steps, fewer seconds.
+  - {t: 17.0s, type: cut, id: s5, src: work/bg.mp4, ss: 17.0}
+  - {t: 17.4s, type: kin, kind: sliced, text: "FEWER STEPS,", color: "#F4F4F1", cap: 100, place: {cx: 960, cy: 330}, dur: 2.4s}
+  - {t: 18.4s, type: kin, kind: whisper, text: "FEWER SECONDS.", color: "#F4F4F1", cap: 92, place: {cx: 960, cy: 560}, dur: 1.4s}

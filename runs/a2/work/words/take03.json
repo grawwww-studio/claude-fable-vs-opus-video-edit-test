@@ -1,0 +1,106 @@
+{
+ "audio": "material/takes/take03.mp4",
+ "duration": 7.2746875,
+ "model": "medium",
+ "words": [
+  {
+   "word": "You",
+   "start": 0.0,
+   "end": 0.2,
+   "p": 0.317
+  },
+  {
+   "word": "might",
+   "start": 0.2,
+   "end": 0.44,
+   "p": 0.997
+  },
+  {
+   "word": "know",
+   "start": 0.44,
+   "end": 0.66,
+   "p": 0.999
+  },
+  {
+   "word": "her.",
+   "start": 0.66,
+   "end": 1.08,
+   "p": 0.998
+  },
+  {
+   "word": "Last",
+   "start": 1.54,
+   "end": 1.8,
+   "p": 0.981
+  },
+  {
+   "word": "time,",
+   "start": 1.8,
+   "end": 2.16,
+   "p": 1.0
+  },
+  {
+   "word": "a",
+   "start": 2.34,
+   "end": 2.54,
+   "p": 0.996
+  },
+  {
+   "word": "refiner",
+   "start": 2.54,
+   "end": 2.92,
+   "p": 0.977
+  },
+  {
+   "word": "redrew",
+   "start": 2.92,
+   "end": 3.3,
+   "p": 0.92
+  },
+  {
+   "word": "her",
+   "start": 3.3,
+   "end": 3.6,
+   "p": 0.999
+  },
+  {
+   "word": "face",
+   "start": 3.6,
+   "end": 3.84,
+   "p": 0.999
+  },
+  {
+   "word": "in",
+   "start": 3.84,
+   "end": 4.16,
+   "p": 0.995
+  },
+  {
+   "word": "six",
+   "start": 4.16,
+   "end": 4.46,
+   "p": 0.504
+  },
+  {
+   "word": "runs",
+   "start": 4.46,
+   "end": 4.82,
+   "p": 0.995
+  },
+  {
+   "word": "of",
+   "start": 4.82,
+   "end": 5.14,
+   "p": 0.998
+  },
+  {
+   "word": "six.",
+   "start": 5.14,
+   "end": 5.44,
+   "p": 0.958
+  }
+ ],
+ "script": null,
+ "glossary": [],
+ "hints": []
+}

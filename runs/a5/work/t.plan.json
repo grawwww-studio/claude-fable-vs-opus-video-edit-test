@@ -1,0 +1,94 @@
+{
+ "streamer": {
+  "header": true,
+  "dropped_repeats": [],
+  "flashes": [
+   0.0,
+   43.888
+  ],
+  "kicks": [
+   0.0,
+   43.888
+  ],
+  "keywords": [
+   "FEWER",
+   "STEPS",
+   "CHECK",
+   "FACE"
+  ],
+  "replay_at": null
+ },
+ "seconds": 46.25,
+ "effects": [
+  {
+   "fx": "slam",
+   "keep": "hook",
+   "at": "fewer steps",
+   "t": -0.083
+  },
+  {
+   "fx": "broll",
+   "keep": "today",
+   "at": "for Minimax",
+   "t": 11.737
+  },
+  {
+   "fx": "broll",
+   "keep": "each",
+   "at": "same three seeds",
+   "t": 24.922
+  },
+  {
+   "fx": "slam",
+   "keep": "point",
+   "at": "check the face",
+   "t": 43.888
+  }
+ ],
+ "ai": [
+  {
+   "n": 1,
+   "prompt": "Close shot of the test character talking to camera, base model at 20 steps, no speed-up",
+   "dur": 3.0,
+   "piece_t": 11.74,
+   "covers": "for Minimax",
+   "clip": "result01.mp4",
+   "model": "MiniMax H3 base, 20 steps",
+   "flags": []
+  },
+  {
+   "n": 2,
+   "prompt": "Close shot of the test character talking to camera, 4-step speed LoRA setting",
+   "dur": 5.4,
+   "piece_t": 24.92,
+   "covers": "same three seeds",
+   "clip": "result02.mp4",
+   "model": "MiniMax H3 + 4-step speed LoRA",
+   "flags": []
+  }
+ ],
+ "caption_words": 111,
+ "style_kit": null,
+ "checks": {
+  "limits": {
+   "slams_per_min": 3,
+   "slam_gap_s": 4.0,
+   "slam_words": 3,
+   "slam_chars": 16,
+   "kicker_words": 4,
+   "kicker_chars": 24,
+   "kicker_lines": 2,
+   "broll_s": [
+    2.0,
+    6.0
+   ],
+   "cold_open_s": 5.0,
+   "ground_s": 10.0,
+   "clip_hold_s": 0.5,
+   "clip_trim_s": 4.5
+  },
+  "glossary": [],
+  "slams": 2,
+  "kickers": 0
+ }
+}

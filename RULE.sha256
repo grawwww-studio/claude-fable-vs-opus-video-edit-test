@@ -1,0 +1,6 @@
+RULE.md as frozen (before any contestant run), 2026-11-16T01:33:55Z:
+sha256 aa1ea3f0d47b5028a3788fd84ed7d2d4a2233eeaa792558a1ed9b1efcca0ff85
+RULE-amendment-a5.md as written, before run a5: sha256 6bc19722… (see RESULTS.md)
+
+The copies in this repo differ from those files only where the person is named (the name became "the person"),
+and review-tab and log file references were removed. Nothing about the rule itself was touched.

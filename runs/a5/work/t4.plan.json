@@ -1,0 +1,42 @@
+{
+ "seconds": 47.208,
+ "effects": [
+  {
+   "fx": "slam",
+   "keep": "hook",
+   "at": "not that simple",
+   "t": 2.985
+  },
+  {
+   "fx": "slam",
+   "keep": "point",
+   "at": "check the face",
+   "t": 44.847
+  }
+ ],
+ "ai": [],
+ "caption_words": 111,
+ "style_kit": null,
+ "checks": {
+  "limits": {
+   "slams_per_min": 3,
+   "slam_gap_s": 4.0,
+   "slam_words": 3,
+   "slam_chars": 16,
+   "kicker_words": 4,
+   "kicker_chars": 24,
+   "kicker_lines": 2,
+   "broll_s": [
+    1.5,
+    6.0
+   ],
+   "cold_open_s": 5.0,
+   "ground_s": 10.0,
+   "clip_hold_s": 0.5,
+   "clip_trim_s": 4.5
+  },
+  "glossary": [],
+  "slams": 2,
+  "kickers": 0
+ }
+}

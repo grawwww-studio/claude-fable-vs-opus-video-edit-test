@@ -1,0 +1,70 @@
+{
+ "audio": "material/takes/take06.mp4",
+ "duration": 5.888,
+ "model": "medium",
+ "words": [
+  {
+   "word": "Fewer",
+   "start": 0.0,
+   "end": 0.56,
+   "p": 0.904
+  },
+  {
+   "word": "steps",
+   "start": 0.56,
+   "end": 0.88,
+   "p": 0.991
+  },
+  {
+   "word": "should",
+   "start": 0.88,
+   "end": 1.28,
+   "p": 0.985
+  },
+  {
+   "word": "mean",
+   "start": 1.28,
+   "end": 1.58,
+   "p": 0.998
+  },
+  {
+   "word": "fewer",
+   "start": 1.58,
+   "end": 1.94,
+   "p": 0.998
+  },
+  {
+   "word": "seconds.",
+   "start": 1.94,
+   "end": 2.46,
+   "p": 0.998
+  },
+  {
+   "word": "It's",
+   "start": 2.98,
+   "end": 3.36,
+   "p": 0.99
+  },
+  {
+   "word": "not",
+   "start": 3.36,
+   "end": 3.52,
+   "p": 0.999
+  },
+  {
+   "word": "that",
+   "start": 3.52,
+   "end": 3.82,
+   "p": 0.998
+  },
+  {
+   "word": "simple.",
+   "start": 3.82,
+   "end": 4.18,
+   "p": 0.999
+  }
+ ],
+ "script": null,
+ "glossary": [],
+ "hints": []
+}

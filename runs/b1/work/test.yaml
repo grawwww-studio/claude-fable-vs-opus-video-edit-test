@@ -1,0 +1,13 @@
+version: 1
+fps: 24
+size: [1920, 1080]
+free_cuts: true
+end: 14s
+events:
+  - {t: 0s, type: cut, id: s1, color: "#0E0E0E"}
+  - {t: 0.5s, type: kin, kind: whisper, text: "WITH THE STANDARD 20 STEPS", color: "#F4F4F1", cap: 44, dur: 3s}
+  - {t: 4s, type: cut, id: s2, color: "#0E0E0E"}
+  - {t: 4.5s, type: kicker, x: 960, y: 300, anchor: center, lines: ["4.1"], band: "4.1", size: 200, dur: 3s}
+  - {t: 4.5s, type: kin, kind: slam, text: "TIMES AS FAST", color: "#F4F4F1", cap: 84, place: {cx: 960, cy: 800, cap: 84}, dur: 3s}
+  - {t: 8s, type: cut, id: s3, color: "#0E0E0E"}
+  - {t: 8.5s, type: kin, kind: jump, text: "FEWER STEPS", color: "#F4F4F1", cap: 80, dur: 3s}

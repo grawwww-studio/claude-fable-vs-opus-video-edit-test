@@ -1,0 +1,682 @@
+{
+ "audio": "out/speedups-vs-face-short.mp4",
+ "duration": 49.8773125,
+ "model": "medium",
+ "words": [
+  {
+   "word": "Fewer",
+   "start": 0.0,
+   "end": 0.56,
+   "p": 0.91
+  },
+  {
+   "word": "steps",
+   "start": 0.56,
+   "end": 0.9,
+   "p": 0.985
+  },
+  {
+   "word": "should",
+   "start": 0.9,
+   "end": 1.28,
+   "p": 0.975
+  },
+  {
+   "word": "mean",
+   "start": 1.28,
+   "end": 1.58,
+   "p": 0.998
+  },
+  {
+   "word": "fewer",
+   "start": 1.58,
+   "end": 1.94,
+   "p": 0.996
+  },
+  {
+   "word": "seconds.",
+   "start": 1.94,
+   "end": 2.48,
+   "p": 0.998
+  },
+  {
+   "word": "It's",
+   "start": 2.66,
+   "end": 3.02,
+   "p": 0.979
+  },
+  {
+   "word": "not",
+   "start": 3.02,
+   "end": 3.24,
+   "p": 0.999
+  },
+  {
+   "word": "that",
+   "start": 3.24,
+   "end": 3.54,
+   "p": 0.996
+  },
+  {
+   "word": "simple.",
+   "start": 3.54,
+   "end": 4.0,
+   "p": 0.999
+  },
+  {
+   "word": "Hi,",
+   "start": 4.2,
+   "end": 4.52,
+   "p": 0.867
+  },
+  {
+   "word": "I'm",
+   "start": 4.84,
+   "end": 5.08,
+   "p": 0.993
+  },
+  {
+   "word": "May.",
+   "start": 5.08,
+   "end": 5.32,
+   "p": 0.308
+  },
+  {
+   "word": "I",
+   "start": 5.56,
+   "end": 5.68,
+   "p": 0.988
+  },
+  {
+   "word": "make",
+   "start": 5.68,
+   "end": 5.9,
+   "p": 0.994
+  },
+  {
+   "word": "AI",
+   "start": 5.9,
+   "end": 6.24,
+   "p": 0.952
+  },
+  {
+   "word": "video",
+   "start": 6.24,
+   "end": 6.68,
+   "p": 0.968
+  },
+  {
+   "word": "on",
+   "start": 6.68,
+   "end": 6.94,
+   "p": 0.995
+  },
+  {
+   "word": "1RTX",
+   "start": 6.94,
+   "end": 7.98,
+   "p": 0.82
+  },
+  {
+   "word": "4090",
+   "start": 7.98,
+   "end": 8.66,
+   "p": 0.64
+  },
+  {
+   "word": "and",
+   "start": 8.66,
+   "end": 9.06,
+   "p": 0.638
+  },
+  {
+   "word": "I",
+   "start": 9.06,
+   "end": 9.38,
+   "p": 0.984
+  },
+  {
+   "word": "time",
+   "start": 9.38,
+   "end": 9.68,
+   "p": 0.995
+  },
+  {
+   "word": "everything.",
+   "start": 9.68,
+   "end": 10.38,
+   "p": 0.978
+  },
+  {
+   "word": "Today,",
+   "start": 10.54,
+   "end": 10.92,
+   "p": 0.982
+  },
+  {
+   "word": "the",
+   "start": 11.46,
+   "end": 11.54,
+   "p": 0.963
+  },
+  {
+   "word": "speedups",
+   "start": 11.54,
+   "end": 11.94,
+   "p": 0.699
+  },
+  {
+   "word": "people",
+   "start": 11.94,
+   "end": 12.22,
+   "p": 0.995
+  },
+  {
+   "word": "recommend",
+   "start": 12.22,
+   "end": 12.78,
+   "p": 0.988
+  },
+  {
+   "word": "for",
+   "start": 12.78,
+   "end": 13.06,
+   "p": 0.991
+  },
+  {
+   "word": "MiniMax",
+   "start": 13.06,
+   "end": 13.64,
+   "p": 0.429
+  },
+  {
+   "word": "AH3.",
+   "start": 13.64,
+   "end": 14.78,
+   "p": 0.778
+  },
+  {
+   "word": "Seconds",
+   "start": 15.28,
+   "end": 15.88,
+   "p": 0.962
+  },
+  {
+   "word": "against",
+   "start": 15.88,
+   "end": 16.14,
+   "p": 0.52
+  },
+  {
+   "word": "her",
+   "start": 16.14,
+   "end": 16.46,
+   "p": 0.99
+  },
+  {
+   "word": "face.",
+   "start": 16.46,
+   "end": 16.78,
+   "p": 0.998
+  },
+  {
+   "word": "Last",
+   "start": 17.08,
+   "end": 17.3,
+   "p": 0.977
+  },
+  {
+   "word": "time,",
+   "start": 17.3,
+   "end": 17.66,
+   "p": 0.999
+  },
+  {
+   "word": "a",
+   "start": 17.82,
+   "end": 18.04,
+   "p": 0.994
+  },
+  {
+   "word": "refiner",
+   "start": 18.04,
+   "end": 18.42,
+   "p": 0.976
+  },
+  {
+   "word": "redrew",
+   "start": 18.42,
+   "end": 18.8,
+   "p": 0.931
+  },
+  {
+   "word": "her",
+   "start": 18.8,
+   "end": 19.1,
+   "p": 0.999
+  },
+  {
+   "word": "face",
+   "start": 19.1,
+   "end": 19.34,
+   "p": 0.999
+  },
+  {
+   "word": "in",
+   "start": 19.34,
+   "end": 19.66,
+   "p": 0.995
+  },
+  {
+   "word": "six",
+   "start": 19.66,
+   "end": 19.96,
+   "p": 0.716
+  },
+  {
+   "word": "runs",
+   "start": 19.96,
+   "end": 20.32,
+   "p": 0.995
+  },
+  {
+   "word": "of",
+   "start": 20.32,
+   "end": 20.62,
+   "p": 0.998
+  },
+  {
+   "word": "six.",
+   "start": 20.62,
+   "end": 20.98,
+   "p": 0.935
+  },
+  {
+   "word": "One",
+   "start": 21.18,
+   "end": 21.46,
+   "p": 0.974
+  },
+  {
+   "word": "character,",
+   "start": 21.46,
+   "end": 22.02,
+   "p": 0.989
+  },
+  {
+   "word": "one",
+   "start": 22.46,
+   "end": 22.72,
+   "p": 0.984
+  },
+  {
+   "word": "card,",
+   "start": 22.72,
+   "end": 23.08,
+   "p": 0.999
+  },
+  {
+   "word": "one",
+   "start": 23.5,
+   "end": 23.78,
+   "p": 0.995
+  },
+  {
+   "word": "session.",
+   "start": 23.78,
+   "end": 24.2,
+   "p": 0.998
+  },
+  {
+   "word": "Now",
+   "start": 24.48,
+   "end": 24.74,
+   "p": 0.996
+  },
+  {
+   "word": "each",
+   "start": 24.74,
+   "end": 25.06,
+   "p": 0.822
+  },
+  {
+   "word": "one.",
+   "start": 25.06,
+   "end": 25.36,
+   "p": 0.996
+  },
+  {
+   "word": "Same",
+   "start": 25.82,
+   "end": 26.1,
+   "p": 0.994
+  },
+  {
+   "word": "three",
+   "start": 26.1,
+   "end": 26.42,
+   "p": 0.982
+  },
+  {
+   "word": "seeds,",
+   "start": 26.42,
+   "end": 26.8,
+   "p": 0.974
+  },
+  {
+   "word": "both",
+   "start": 27.2,
+   "end": 27.44,
+   "p": 0.996
+  },
+  {
+   "word": "shots,",
+   "start": 27.44,
+   "end": 27.88,
+   "p": 0.998
+  },
+  {
+   "word": "all",
+   "start": 28.22,
+   "end": 28.4,
+   "p": 0.999
+  },
+  {
+   "word": "at",
+   "start": 28.4,
+   "end": 28.58,
+   "p": 0.999
+  },
+  {
+   "word": "once.",
+   "start": 28.58,
+   "end": 28.86,
+   "p": 0.999
+  },
+  {
+   "word": "Watch",
+   "start": 28.86,
+   "end": 29.46,
+   "p": 0.861
+  },
+  {
+   "word": "her",
+   "start": 29.46,
+   "end": 29.74,
+   "p": 0.992
+  },
+  {
+   "word": "eyes",
+   "start": 29.74,
+   "end": 30.08,
+   "p": 0.997
+  },
+  {
+   "word": "and",
+   "start": 30.08,
+   "end": 30.4,
+   "p": 0.993
+  },
+  {
+   "word": "freckles.",
+   "start": 30.4,
+   "end": 30.9,
+   "p": 0.999
+  },
+  {
+   "word": "A",
+   "start": 31.12,
+   "end": 31.38,
+   "p": 0.989
+  },
+  {
+   "word": "face",
+   "start": 31.38,
+   "end": 31.6,
+   "p": 0.973
+  },
+  {
+   "word": "score",
+   "start": 31.6,
+   "end": 31.96,
+   "p": 0.993
+  },
+  {
+   "word": "only",
+   "start": 31.96,
+   "end": 32.42,
+   "p": 0.993
+  },
+  {
+   "word": "looks",
+   "start": 32.42,
+   "end": 32.66,
+   "p": 0.998
+  },
+  {
+   "word": "at",
+   "start": 32.66,
+   "end": 32.84,
+   "p": 0.999
+  },
+  {
+   "word": "the",
+   "start": 32.84,
+   "end": 33.04,
+   "p": 0.999
+  },
+  {
+   "word": "face.",
+   "start": 33.04,
+   "end": 33.4,
+   "p": 0.999
+  },
+  {
+   "word": "So",
+   "start": 33.62,
+   "end": 33.96,
+   "p": 0.992
+  },
+  {
+   "word": "I",
+   "start": 33.96,
+   "end": 34.34,
+   "p": 0.682
+  },
+  {
+   "word": "watch",
+   "start": 34.34,
+   "end": 34.54,
+   "p": 0.541
+  },
+  {
+   "word": "them",
+   "start": 34.54,
+   "end": 34.84,
+   "p": 0.999
+  },
+  {
+   "word": "all",
+   "start": 34.84,
+   "end": 35.22,
+   "p": 0.999
+  },
+  {
+   "word": "side",
+   "start": 35.22,
+   "end": 35.5,
+   "p": 0.921
+  },
+  {
+   "word": "by",
+   "start": 35.5,
+   "end": 35.72,
+   "p": 0.565
+  },
+  {
+   "word": "side.",
+   "start": 35.72,
+   "end": 36.08,
+   "p": 0.999
+  },
+  {
+   "word": "What",
+   "start": 36.28,
+   "end": 36.44,
+   "p": 0.993
+  },
+  {
+   "word": "I",
+   "start": 36.44,
+   "end": 36.7,
+   "p": 0.996
+  },
+  {
+   "word": "didn't",
+   "start": 36.7,
+   "end": 37.0,
+   "p": 0.998
+  },
+  {
+   "word": "measure.",
+   "start": 37.0,
+   "end": 37.48,
+   "p": 0.999
+  },
+  {
+   "word": "Lip",
+   "start": 38.06,
+   "end": 38.16,
+   "p": 0.629
+  },
+  {
+   "word": "sync,",
+   "start": 38.16,
+   "end": 38.48,
+   "p": 0.717
+  },
+  {
+   "word": "motion,",
+   "start": 38.86,
+   "end": 39.3,
+   "p": 0.965
+  },
+  {
+   "word": "other",
+   "start": 39.78,
+   "end": 40.02,
+   "p": 0.983
+  },
+  {
+   "word": "characters,",
+   "start": 40.02,
+   "end": 40.6,
+   "p": 0.996
+  },
+  {
+   "word": "longer",
+   "start": 41.18,
+   "end": 41.34,
+   "p": 0.991
+  },
+  {
+   "word": "clips.",
+   "start": 41.34,
+   "end": 41.78,
+   "p": 0.998
+  },
+  {
+   "word": "If",
+   "start": 41.98,
+   "end": 42.14,
+   "p": 0.995
+  },
+  {
+   "word": "your",
+   "start": 42.14,
+   "end": 42.46,
+   "p": 0.993
+  },
+  {
+   "word": "character",
+   "start": 42.46,
+   "end": 42.78,
+   "p": 0.998
+  },
+  {
+   "word": "has",
+   "start": 42.78,
+   "end": 43.04,
+   "p": 0.998
+  },
+  {
+   "word": "to",
+   "start": 43.04,
+   "end": 43.36,
+   "p": 0.999
+  },
+  {
+   "word": "stay",
+   "start": 43.36,
+   "end": 43.54,
+   "p": 0.998
+  },
+  {
+   "word": "your",
+   "start": 43.54,
+   "end": 43.82,
+   "p": 0.996
+  },
+  {
+   "word": "character,",
+   "start": 43.82,
+   "end": 44.32,
+   "p": 0.998
+  },
+  {
+   "word": "check",
+   "start": 44.62,
+   "end": 44.86,
+   "p": 0.975
+  },
+  {
+   "word": "the",
+   "start": 44.86,
+   "end": 45.14,
+   "p": 0.999
+  },
+  {
+   "word": "face,",
+   "start": 45.14,
+   "end": 45.48,
+   "p": 0.998
+  },
+  {
+   "word": "not",
+   "start": 45.7,
+   "end": 45.98,
+   "p": 0.997
+  },
+  {
+   "word": "just",
+   "start": 45.98,
+   "end": 46.22,
+   "p": 0.999
+  },
+  {
+   "word": "the",
+   "start": 46.22,
+   "end": 46.44,
+   "p": 1.0
+  },
+  {
+   "word": "clock.",
+   "start": 46.44,
+   "end": 46.64,
+   "p": 0.999
+  }
+ ],
+ "script": null,
+ "glossary": [],
+ "hints": []
+}

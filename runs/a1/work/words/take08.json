@@ -1,0 +1,70 @@
+{
+ "audio": "takes/take08.mp4",
+ "duration": 5.1626875,
+ "model": "medium",
+ "words": [
+  {
+   "word": "Here's",
+   "start": 0.0,
+   "end": 0.38,
+   "p": 0.93
+  },
+  {
+   "word": "what",
+   "start": 0.38,
+   "end": 0.52,
+   "p": 0.997
+  },
+  {
+   "word": "I'd",
+   "start": 0.52,
+   "end": 0.86,
+   "p": 0.982
+  },
+  {
+   "word": "actually",
+   "start": 0.86,
+   "end": 1.32,
+   "p": 0.997
+  },
+  {
+   "word": "use,",
+   "start": 1.32,
+   "end": 1.78,
+   "p": 0.998
+  },
+  {
+   "word": "and",
+   "start": 2.06,
+   "end": 2.38,
+   "p": 0.994
+  },
+  {
+   "word": "how",
+   "start": 2.38,
+   "end": 2.6,
+   "p": 0.993
+  },
+  {
+   "word": "I'd",
+   "start": 2.6,
+   "end": 2.9,
+   "p": 0.987
+  },
+  {
+   "word": "check",
+   "start": 2.9,
+   "end": 3.02,
+   "p": 0.999
+  },
+  {
+   "word": "it.",
+   "start": 3.02,
+   "end": 3.38,
+   "p": 0.999
+  }
+ ],
+ "script": null,
+ "glossary": [],
+ "hints": []
+}

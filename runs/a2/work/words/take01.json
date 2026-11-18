@@ -1,0 +1,100 @@
+{
+ "audio": "material/takes/take01.mp4",
+ "duration": 8.0,
+ "model": "medium",
+ "words": [
+  {
+   "word": "Hi,",
+   "start": 0.0,
+   "end": 0.44,
+   "p": 0.909
+  },
+  {
+   "word": "I'm",
+   "start": 0.74,
+   "end": 0.92,
+   "p": 0.985
+  },
+  {
+   "word": "Mae.",
+   "start": 0.92,
+   "end": 1.16,
+   "p": 0.351
+  },
+  {
+   "word": "I",
+   "start": 1.56,
+   "end": 1.82,
+   "p": 0.998
+  },
+  {
+   "word": "make",
+   "start": 1.82,
+   "end": 2.04,
+   "p": 0.997
+  },
+  {
+   "word": "AI",
+   "start": 2.04,
+   "end": 2.38,
+   "p": 0.954
+  },
+  {
+   "word": "video",
+   "start": 2.38,
+   "end": 2.78,
+   "p": 0.971
+  },
+  {
+   "word": "on",
+   "start": 2.78,
+   "end": 3.12,
+   "p": 0.995
+  },
+  {
+   "word": "one",
+   "start": 3.12,
+   "end": 3.5,
+   "p": 0.99
+  },
+  {
+   "word": "RTX",
+   "start": 3.5,
+   "end": 4.12,
+   "p": 0.99
+  },
+  {
+   "word": "4090,",
+   "start": 4.12,
+   "end": 4.76,
+   "p": 0.66
+  },
+  {
+   "word": "and",
+   "start": 4.76,
+   "end": 5.2,
+   "p": 0.663
+  },
+  {
+   "word": "I",
+   "start": 5.2,
+   "end": 5.5,
+   "p": 0.98
+  },
+  {
+   "word": "time",
+   "start": 5.5,
+   "end": 5.82,
+   "p": 0.995
+  },
+  {
+   "word": "everything.",
+   "start": 5.82,
+   "end": 6.42,
+   "p": 0.985
+  }
+ ],
+ "script": null,
+ "glossary": [],
+ "hints": []
+}

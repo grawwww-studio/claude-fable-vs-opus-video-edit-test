@@ -1,0 +1,562 @@
+version: 1
+piece: speed-ups vs her face (short)
+fps: 24
+size:
+- 1080
+- 1920
+mosca: true
+camera_blur: true
+crf: 20
+bitrate: 3M
+route: client
+look:
+  font: brand/anybody-latin-wdth-normal.woff2
+  weight: 900
+  case: upper
+  ink: '#111111'
+  plate: '#FBFBFA'
+  accent: '#FFD400'
+  band_ink: '#111111'
+  fill: '#FBFBFA'
+  outline: '#111111'
+  outline_w: 0.1
+  contrast: auto
+  card:
+    ground: '#0E0E0E'
+    ink: '#F4F4F1'
+    accent: '#FFD400'
+    muted: '#8E8E8A'
+captions:
+  style:
+    font: brand/anybody-latin-wdth-normal.woff2
+    fill: '#FBFBFA'
+    outline: '#000000'
+    outline_w: 0.12
+    highlight: '#00A0DC'
+    position: 0.8
+    size: 36
+    case: upper
+    weight: 900
+    contrast: auto
+talk:
+  takes:
+  - src: material/takes/take06.mp4
+    words: work/words/take06.json
+    from: 0.0
+    to: 4.4
+  - src: material/takes/take01.mp4
+    words: work/words/take01.json
+    from: 0.0
+    to: 6.6
+  - src: material/takes/take02.mp4
+    words: work/words/take02.json
+    from: 0.0
+    to: 6.5
+  - src: material/takes/take03.mp4
+    words: work/words/take03.json
+    from: 1.45
+    to: 5.62
+  - src: material/takes/take04.mp4
+    words: work/words/take04.json
+    from: 0.0
+    to: 3.25
+  - src: material/takes/take05.mp4
+    words: work/words/take05.json
+    from: 0.0
+    to: 6.9
+  - src: material/takes/take07.mp4
+    words: work/words/take07.json
+    from: 0.0
+    to: 5.4
+  - src: material/takes/take10.mp4
+    words: work/words/take10.json
+    from: 0.0
+    to: 5.72
+  - src: material/takes/take09.mp4
+    words: work/words/take09.json
+    from: 0.0
+    to: 4.95
+  jump:
+    pause_ms: 400
+    leave_ms: 140
+    ceiling_db: auto
+  ab:
+    every_s: 4.5
+    min_shot_s: 1.5
+  follow: true
+events:
+- t: 0
+  type: podcast
+  id: caps
+  words:
+  - - Fewer
+    - 0.0
+    - 0.56
+  - - steps
+    - 0.56
+    - 0.88
+  - - should
+    - 0.88
+    - 1.28
+  - - mean
+    - 1.28
+    - 1.58
+  - - fewer
+    - 1.58
+    - 1.94
+  - - seconds.
+    - 1.94
+    - 2.46
+  - - It's
+    - 2.688
+    - 3.068
+  - - not
+    - 3.068
+    - 3.228
+  - - that
+    - 3.228
+    - 3.528
+  - - simple.
+    - 3.528
+    - 3.888
+  - - Hi,
+    - 4.125
+    - 4.565
+  - - I'm
+    - 4.865
+    - 5.045
+  - - Mae.
+    - 5.045
+    - 5.285
+  - - I
+    - 5.435
+    - 5.695
+  - - make
+    - 5.695
+    - 5.915
+  - - AI
+    - 5.915
+    - 6.255
+  - - video
+    - 6.255
+    - 6.655
+  - - 'on'
+    - 6.655
+    - 6.995
+  - - one
+    - 6.995
+    - 7.375
+  - - RTX
+    - 7.375
+    - 7.995
+  - - 4090,
+    - 7.995
+    - 8.635
+  - - and
+    - 8.635
+    - 9.075
+  - - I
+    - 9.075
+    - 9.375
+  - - time
+    - 9.375
+    - 9.695
+  - - everything.
+    - 9.695
+    - 10.295
+  - - 'Today:'
+    - 10.458
+    - 10.978
+  - - the
+    - 11.358
+    - 11.538
+  - - speed-ups
+    - 11.538
+    - 11.938
+  - - people
+    - 11.938
+    - 12.218
+  - - recommend
+    - 12.218
+    - 12.778
+  - - for
+    - 12.778
+    - 13.078
+  - - MiniMax
+    - 13.078
+    - 13.678
+  - - H3.
+    - 13.678
+    - 14.818
+  - - Seconds,
+    - 15.158
+    - 15.518
+  - - against
+    - 15.518
+    - 16.158
+  - - her
+    - 16.158
+    - 16.458
+  - - face.
+    - 16.458
+    - 16.758
+  - - Last
+    - 17.04
+    - 17.3
+  - - time,
+    - 17.3
+    - 17.66
+  - - a
+    - 17.84
+    - 18.04
+  - - refiner
+    - 18.04
+    - 18.42
+  - - redrew
+    - 18.42
+    - 18.8
+  - - her
+    - 18.8
+    - 19.1
+  - - face
+    - 19.1
+    - 19.34
+  - - in
+    - 19.34
+    - 19.66
+  - - six
+    - 19.66
+    - 19.96
+  - - runs
+    - 19.96
+    - 20.32
+  - - of
+    - 20.32
+    - 20.64
+  - - six.
+    - 20.64
+    - 20.94
+  - - One
+    - 21.125
+    - 21.485
+  - - character,
+    - 21.485
+    - 22.005
+  - - one
+    - 22.465
+    - 22.725
+  - - card,
+    - 22.725
+    - 23.065
+  - - one
+    - 23.565
+    - 23.785
+  - - session.
+    - 23.785
+    - 24.185
+  - - Now
+    - 24.375
+    - 24.735
+  - - each
+    - 24.735
+    - 25.075
+  - - 'one:'
+    - 25.075
+    - 25.615
+  - - Same
+    - 25.755
+    - 26.095
+  - - three
+    - 26.095
+    - 26.395
+  - - seeds,
+    - 26.395
+    - 26.775
+  - - both
+    - 27.175
+    - 27.455
+  - - shots,
+    - 27.455
+    - 27.875
+  - - all
+    - 28.195
+    - 28.395
+  - - at
+    - 28.395
+    - 28.575
+  - - once.
+    - 28.575
+    - 28.875
+  - - Watch
+    - 29.287
+    - 29.487
+  - - her
+    - 29.487
+    - 29.727
+  - - eyes
+    - 29.727
+    - 30.107
+  - - and
+    - 30.107
+    - 30.407
+  - - freckles.
+    - 30.407
+    - 30.887
+  - - A
+    - 31.083
+    - 31.403
+  - - face
+    - 31.403
+    - 31.603
+  - - score
+    - 31.603
+    - 31.983
+  - - only
+    - 31.983
+    - 32.423
+  - - looks
+    - 32.423
+    - 32.663
+  - - at
+    - 32.663
+    - 32.863
+  - - the
+    - 32.863
+    - 33.043
+  - - face.
+    - 33.043
+    - 33.403
+  - - So
+    - 33.573
+    - 33.973
+  - - I
+    - 33.973
+    - 34.313
+  - - watched
+    - 34.313
+    - 34.553
+  - - them
+    - 34.553
+    - 34.853
+  - - all
+    - 34.853
+    - 35.213
+  - - side
+    - 35.213
+    - 35.493
+  - - by
+    - 35.493
+    - 35.773
+  - - side.
+    - 35.773
+    - 36.053
+  - - What
+    - 36.25
+    - 36.43
+  - - I
+    - 36.43
+    - 36.67
+  - - didn't
+    - 36.67
+    - 37.01
+  - - 'measure:'
+    - 37.01
+    - 37.53
+  - - lip-sync,
+    - 37.93
+    - 38.43
+  - - motion,
+    - 38.87
+    - 39.31
+  - - other
+    - 39.81
+    - 40.03
+  - - characters,
+    - 40.03
+    - 40.61
+  - - longer
+    - 41.17
+    - 41.35
+  - - clips.
+    - 41.35
+    - 41.79
+  - - If
+    - 41.958
+    - 42.138
+  - - your
+    - 42.138
+    - 42.458
+  - - character
+    - 42.458
+    - 42.758
+  - - has
+    - 42.758
+    - 43.058
+  - - to
+    - 43.058
+    - 43.358
+  - - stay
+    - 43.358
+    - 43.538
+  - - your
+    - 43.538
+    - 43.838
+  - - character,
+    - 43.838
+    - 44.298
+  - - check
+    - 44.638
+    - 44.878
+  - - the
+    - 44.878
+    - 45.158
+  - - face,
+    - 45.158
+    - 45.458
+  - - not
+    - 45.818
+    - 45.998
+  - - just
+    - 45.998
+    - 46.238
+  - - the
+    - 46.238
+    - 46.438
+  - - clock.
+    - 46.438
+    - 46.638
+- t: 44.555
+  type: kin
+  kind: sliced
+  id: slam_checktheface
+  text: CHECK THE FACE
+  caps:
+  - 50
+  - 40
+  - 32
+  place: auto
+  place_opts:
+    prefer:
+    - c
+    - lc
+    - uc
+    - ml
+    - mr
+  dur: 1.8s
+  kick: 0.02
+- t: 0
+  type: grid
+  id: g_hook
+  tiles:
+  - id: h1
+    src: material/results/result01.mp4
+    ss: 0.3
+    rect: &id001
+    - 100
+    - 380
+    - 880
+    - 495
+    label: BASE MODEL · 20 STEPS · 600 S A CLIP
+  - id: h2
+    src: material/results/result02.mp4
+    ss: 0.3
+    rect: &id002
+    - 100
+    - 925
+    - 880
+    - 495
+    label: 4-STEP SPEED LORA · 147 S A CLIP
+- t: 11.358
+  type: grid
+  id: g_loras
+  tiles:
+  - id: l1
+    src: material/results/result03.mp4
+    ss: 0.3
+    rect: *id001
+    label: 8-STEP SPEED LORA · 267 S · 2.2x
+  - id: l2
+    src: material/results/result04.mp4
+    ss: 0.3
+    rect: *id002
+    label: 6-STEP SPEED LORA · 208 S · 2.9x
+- t: 25.755
+  type: grid
+  id: g_shots
+  tiles:
+  - id: s1
+    src: material/results/result02.mp4
+    ss: 0.3
+    rect: *id001
+    label: CLOSE SHOT · 4-STEP · 147 S
+  - id: s2
+    src: material/results/result07.mp4
+    ss: 0.3
+    rect: *id002
+    label: WIDE SHOT · 4-STEP · 147 S
+- t: 33.542
+  type: grid
+  id: g_side
+  tiles:
+  - id: q1
+    src: material/results/result01.mp4
+    ss: 0.3
+    rect:
+    - 60
+    - 400
+    - 470
+    - 470
+    label: 20 STEPS · 600 S
+    window: &id003
+    - 560
+    - 560
+    - 392
+    - 0
+  - id: q2
+    src: material/results/result03.mp4
+    ss: 0.3
+    rect:
+    - 550
+    - 400
+    - 470
+    - 470
+    label: 8 STEPS · 267 S
+    window: *id003
+  - id: q3
+    src: material/results/result04.mp4
+    ss: 0.3
+    rect:
+    - 60
+    - 920
+    - 470
+    - 470
+    label: 6 STEPS · 208 S
+    window: *id003
+  - id: q4
+    src: material/results/result02.mp4
+    ss: 0.3
+    rect:
+    - 550
+    - 920
+    - 470
+    - 470
+    label: 4 STEPS · 147 S
+    window: *id003
+- t: 46.988
+  type: cut
+  id: endcard
+  color: '#0E0E0E'
+- t: 47.238
+  type: panel
+  id: p_end
+  x: 90
+  y: 700
+  w: 900
+  label: FULL EPISODE ON THE CHANNEL
+  figures:
+  - text: 4.1x
+    sub: AS FAST AT 4 STEPS · STILL CHECK HER EYES
+    count: 12
+  dur: 2.2s
+end: 49.888s
+free_cuts: true

@@ -1,0 +1,4 @@
+# Model weights are not part of this repo. The eight finished videos (runs/*/out/*.mp4) ARE.
+*.safetensors
+*.gguf
+*.bak*

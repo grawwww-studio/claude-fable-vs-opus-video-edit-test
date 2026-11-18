@@ -1,0 +1,27 @@
+version: 1
+fps: 24
+size: [1920, 1080]
+free_cuts: true
+mosca: true
+end: 20s
+events:
+  # 1. setup: one clip, two ways, same card
+  - {t: 0s,    type: cut, id: s1, color: "#0E0E0E"}
+  - {t: 0.3s,  type: panel, id: p0, x: 460, y: 330, w: 1000, label: "WE TIMED ONE VIDEO CLIP",
+     figures: [{text: "TWO WAYS", sub: "ON THE SAME GRAPHICS CARD", ink: k}], dur: 3.6s}
+  # 2-3. the timings: bars drawn as shapes (work/bars.mp4), figures in the panel on the right
+  #      magenta bar grows 4.8-7.3 s with the 600 counting up; cyan bar grows from 9.3 s and stops at 147/600
+  - {t: 4.4s,  type: cut, id: s2, src: work/bars.mp4, ss: 0}
+  - {t: 4.7s,  type: panel, id: p1, x: 1180, y: 300, w: 600, label: "STANDARD · 20 STEPS",
+     figures: [{text: "600", sub: "SECONDS", count: 60, ink: magenta_ink}], dur: 3.8s}
+  - {t: 9.2s,  type: panel, id: p2, x: 1180, y: 300, w: 600, label: "SAME CLIP · SAME CARD",
+     figures: [{text: "600", sub: "SECONDS · 20 STEPS", ink: magenta_ink},
+               {text: "147", sub: "SECONDS · 4-STEP SPEED LORA", count: 20, ink: cyan_ink}], dur: 4.2s}
+  # 4. the ratio
+  - {t: 13.8s, type: cut, id: s4, color: "#0E0E0E"}
+  - {t: 14.1s, type: kin, kind: slam, text: "4.1 TIMES", color: "#F4F4F1", cap: 150, dur: 1.4s, kick: 0.03}
+  - {t: 16.1s, type: kin, kind: sliced, text: "AS FAST", color: "#F4F4F1", cap: 150, dur: 1.1s}
+  # 5. the line
+  - {t: 17.6s, type: cut, id: s5, color: "#0E0E0E"}
+  - {t: 17.6s, type: flash, n: 2}
+  - {t: 17.9s, type: kin, kind: whisper, text: "FEWER STEPS, FEWER SECONDS", color: "#F4F4F1", cap: 50, dur: 1.8s}

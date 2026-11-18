@@ -1,0 +1,36 @@
+version: 1
+fps: 24
+size: [1920, 1080]
+free_cuts: true
+end: 20s
+events:
+  # 1. Setup: one clip, two ways, same card
+  - {t: 0s,    type: cut, id: s1, color: "#0E0E0E"}
+  - {t: 0.4s,  type: titlecard, kicker: "SAME GRAPHICS CARD", lines: ["ONE CLIP", "TIMED TWO WAYS"], dur: 3.0s}
+
+  # 2. Standard: 20 steps, 600 s
+  - {t: 3.8s,  type: cut, id: s2, color: "#0E0E0E"}
+  - {t: 4.2s,  type: panel, id: p1, x: 690, y: 380, w: 540, label: "STANDARD / 20 STEPS",
+     figures: [{text: "600", sub: "SECONDS", count: 24, ink: cyan_ink}], dur: 3.2s}
+  - {t: 4.2s,  type: push, rate: 0.01}
+
+  # 3. Speed LoRA: 4 steps, 147 s
+  - {t: 7.8s,  type: cut, id: s3, color: "#0E0E0E"}
+  - {t: 8.2s,  type: panel, id: p2, x: 690, y: 380, w: 540, label: "SPEED LORA / 4 STEPS",
+     figures: [{text: "147", sub: "SECONDS", count: 24, ink: magenta_ink}], dur: 3.0s}
+  - {t: 8.2s,  type: push, rate: 0.01}
+
+  # 4. The two timings as bars (600 : 147 at true scale)
+  - {t: 11.6s, type: grid, id: g1, tiles: [
+      {id: b1, src: work/bar_cyan.png, ss: 0, rect: [210, 360, 1500, 110], label: "20 STEPS  600 S", keyline: none},
+      {id: b2, src: work/bar_magenta.png, ss: 0, rect: [210, 610, 368, 110], label: "4 STEPS  147 S", keyline: none}]}
+  - {t: 11.7s, type: push, rate: 0.008}
+
+  # 5. The ratio
+  - {t: 15.0s, type: cut, id: s4, color: "#0E0E0E"}
+  - {t: 15.3s, type: kin, kind: slam, text: "4.1X AS FAST", color: "#F4F4F1", cap: 120, dur: 1.8s}
+  - {t: 15.3s, type: kick, amt: 0.03, d: 0.4}
+
+  # 6. Payoff
+  - {t: 17.6s, type: cut, id: s5, color: "#0E0E0E"}
+  - {t: 17.9s, type: kin, kind: whisper, text: "FEWER STEPS, FEWER SECONDS", color: "#F4F4F1", cap: 48, dur: 1.8s}

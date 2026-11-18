@@ -1,0 +1,82 @@
+{
+ "audio": "takes/take02.mp4",
+ "duration": 8.0,
+ "model": "medium",
+ "words": [
+  {
+   "word": "Today:",
+   "start": 0.0,
+   "end": 0.52,
+   "p": 0.983
+  },
+  {
+   "word": "the",
+   "start": 0.9,
+   "end": 1.08,
+   "p": 0.947
+  },
+  {
+   "word": "speed-ups",
+   "start": 1.08,
+   "end": 1.48,
+   "p": 0.99
+  },
+  {
+   "word": "people",
+   "start": 1.48,
+   "end": 1.76,
+   "p": 0.996
+  },
+  {
+   "word": "recommend",
+   "start": 1.76,
+   "end": 2.32,
+   "p": 0.991
+  },
+  {
+   "word": "for",
+   "start": 2.32,
+   "end": 2.62,
+   "p": 0.991
+  },
+  {
+   "word": "MiniMax",
+   "start": 2.62,
+   "end": 3.22,
+   "p": 0.71
+  },
+  {
+   "word": "H3.",
+   "start": 3.22,
+   "end": 4.36,
+   "p": 0.99
+  },
+  {
+   "word": "Seconds,",
+   "start": 4.7,
+   "end": 5.06,
+   "p": 0.872
+  },
+  {
+   "word": "against",
+   "start": 5.06,
+   "end": 5.7,
+   "p": 0.967
+  },
+  {
+   "word": "her",
+   "start": 5.7,
+   "end": 6.0,
+   "p": 0.983
+  },
+  {
+   "word": "face.",
+   "start": 6.0,
+   "end": 6.3,
+   "p": 0.999
+  }
+ ],
+ "script": null,
+ "glossary": [],
+ "hints": []
+}

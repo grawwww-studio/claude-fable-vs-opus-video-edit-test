@@ -1,0 +1,464 @@
+# short-speedups-vs-face
+# Written by `ed treat` from a treatment (phrases -> effects); every position, card, lint and sound is the engine's.
+version: 1
+piece: short-speedups-vs-face
+fps: 24
+size:
+- 1080
+- 1920
+mosca: true
+camera_blur: true
+crf: 20
+bitrate: 3M
+route: client
+look:
+  font: brand/anybody-latin-wdth-normal.woff2
+  weight: 900
+  case: upper
+  ink: '#111111'
+  plate: '#FBFBFA'
+  accent: '#FFD400'
+  band_ink: '#111111'
+  fill: '#FBFBFA'
+  outline: '#111111'
+  outline_w: 0.1
+  contrast: auto
+  card:
+    ground: '#0E0E0E'
+    ink: '#F4F4F1'
+    accent: '#FFD400'
+    muted: '#8E8E8A'
+captions:
+  style:
+    font: brand/anybody-latin-wdth-normal.woff2
+    fill: '#FBFBFA'
+    outline: '#000000'
+    outline_w: 0.12
+    highlight: '#FFD400'
+    position: 0.8
+    size: 36
+    case: upper
+    weight: 900
+    contrast: auto
+talk:
+  takes:
+  - src: material/takes/take06.mp4
+    words: material/words/take06.json
+    from: 0.0
+    to: 4.45
+  - src: material/takes/take01.mp4
+    words: material/words/take01.json
+    from: 1.45
+    to: 6.7
+  - src: material/takes/take02.mp4
+    words: material/words/take02.json
+    from: 0.0
+    to: 6.55
+  - src: material/takes/take03.mp4
+    words: material/words/take03.json
+    from: 1.42
+    to: 5.7
+  - src: material/takes/take04.mp4
+    words: material/words/take04.json
+    from: 0.0
+    to: 3.3
+  - src: material/takes/take05.mp4
+    words: material/words/take05.json
+    from: 0.0
+    to: 6.95
+  - src: material/takes/take07.mp4
+    words: material/words/take07.json
+    from: 0.0
+    to: 6.4
+  - src: material/takes/take10.mp4
+    words: material/words/take10.json
+    from: 0.0
+    to: 5.8
+  - src: material/takes/take09.mp4
+    words: material/words/take09.json
+    from: 0.0
+    to: 4.95
+  jump:
+    pause_ms: 400
+    leave_ms: 140
+    ceiling_db: auto
+  ab:
+    every_s: 4.5
+    min_shot_s: 1.5
+  follow: true
+events:
+- t: 0
+  type: podcast
+  id: caps
+  words:
+  - - Fewer
+    - 0.0
+    - 0.56
+  - - steps
+    - 0.56
+    - 0.88
+  - - should
+    - 0.88
+    - 1.28
+  - - mean
+    - 1.28
+    - 1.58
+  - - fewer
+    - 1.58
+    - 1.94
+  - - seconds.
+    - 1.94
+    - 2.46
+  - - It's
+    - 2.688
+    - 3.068
+  - - not
+    - 3.068
+    - 3.228
+  - - that
+    - 3.228
+    - 3.528
+  - - simple.
+    - 3.528
+    - 3.888
+  - - I
+    - 4.268
+    - 4.528
+  - - make
+    - 4.528
+    - 4.748
+  - - AI
+    - 4.748
+    - 5.088
+  - - video
+    - 5.088
+    - 5.488
+  - - 'on'
+    - 5.488
+    - 5.828
+  - - 1RTX
+    - 5.828
+    - 6.828
+  - - '4090'
+    - 6.828
+    - 7.468
+  - - and
+    - 7.468
+    - 7.908
+  - - I
+    - 7.908
+    - 8.208
+  - - time
+    - 8.208
+    - 8.528
+  - - everything.
+    - 8.528
+    - 9.128
+  - - Today,
+    - 9.417
+    - 9.937
+  - - the
+    - 10.317
+    - 10.497
+  - - speed
+    - 10.497
+    - 10.677
+  - - -ups
+    - 10.677
+    - 10.897
+  - - people
+    - 10.897
+    - 11.177
+  - - recommend
+    - 11.177
+    - 11.737
+  - - for
+    - 11.737
+    - 12.037
+  - - Minimax
+    - 12.037
+    - 12.637
+  - - AH
+    - 12.637
+    - 13.037
+  - - -3,
+    - 13.037
+    - 13.777
+  - - seconds
+    - 14.117
+    - 14.477
+  - - against
+    - 14.477
+    - 15.117
+  - - her
+    - 15.117
+    - 15.417
+  - - face.
+    - 15.417
+    - 15.717
+  - - Last
+    - 16.082
+    - 16.342
+  - - time,
+    - 16.342
+    - 16.702
+  - - a
+    - 16.882
+    - 17.082
+  - - refiner
+    - 17.082
+    - 17.462
+  - - redrew
+    - 17.462
+    - 17.842
+  - - her
+    - 17.842
+    - 18.142
+  - - face
+    - 18.142
+    - 18.382
+  - - in
+    - 18.382
+    - 18.702
+  - - six
+    - 18.702
+    - 19.002
+  - - runs
+    - 19.002
+    - 19.362
+  - - of
+    - 19.362
+    - 19.682
+  - - six.
+    - 19.682
+    - 19.982
+  - - One
+    - 20.25
+    - 20.61
+  - - character,
+    - 20.61
+    - 21.13
+  - - one
+    - 21.59
+    - 21.85
+  - - card,
+    - 21.85
+    - 22.19
+  - - one
+    - 22.69
+    - 22.91
+  - - session.
+    - 22.91
+    - 23.31
+  - - Now
+    - 23.542
+    - 23.902
+  - - each
+    - 23.902
+    - 24.242
+  - - one.
+    - 24.242
+    - 24.782
+  - - Same
+    - 24.922
+    - 25.262
+  - - three
+    - 25.262
+    - 25.562
+  - - seeds,
+    - 25.562
+    - 25.942
+  - - both
+    - 26.342
+    - 26.622
+  - - shots,
+    - 26.622
+    - 27.042
+  - - all
+    - 27.362
+    - 27.562
+  - - at
+    - 27.562
+    - 27.742
+  - - once.
+    - 27.742
+    - 28.042
+  - - Watch
+    - 28.453
+    - 28.653
+  - - her
+    - 28.653
+    - 28.893
+  - - eyes
+    - 28.893
+    - 29.273
+  - - and
+    - 29.273
+    - 29.573
+  - - freckles.
+    - 29.573
+    - 30.053
+  - - a
+    - 30.292
+    - 30.612
+  - - face
+    - 30.612
+    - 30.812
+  - - score
+    - 30.812
+    - 31.192
+  - - only
+    - 31.192
+    - 31.632
+  - - looks
+    - 31.632
+    - 31.872
+  - - at
+    - 31.872
+    - 32.072
+  - - the
+    - 32.072
+    - 32.252
+  - - face.
+    - 32.252
+    - 32.612
+  - - So
+    - 32.782
+    - 33.182
+  - - I
+    - 33.182
+    - 33.522
+  - - watched
+    - 33.522
+    - 33.762
+  - - them
+    - 33.762
+    - 34.062
+  - - all
+    - 34.062
+    - 34.422
+  - - side
+    - 34.422
+    - 34.702
+  - - by
+    - 34.702
+    - 34.982
+  - - side.
+    - 34.982
+    - 35.262
+  - - What
+    - 36.458
+    - 36.638
+  - - I
+    - 36.638
+    - 36.878
+  - - didn't
+    - 36.878
+    - 37.218
+  - - measure.
+    - 37.218
+    - 37.738
+  - - Lip
+    - 38.138
+    - 38.358
+  - - sync,
+    - 38.358
+    - 38.638
+  - - motion,
+    - 39.078
+    - 39.518
+  - - other
+    - 40.018
+    - 40.238
+  - - characters,
+    - 40.238
+    - 40.818
+  - - longer
+    - 41.378
+    - 41.558
+  - - clips.
+    - 41.558
+    - 41.998
+  - - If
+    - 42.25
+    - 42.43
+  - - your
+    - 42.43
+    - 42.75
+  - - character
+    - 42.75
+    - 43.05
+  - - has
+    - 43.05
+    - 43.35
+  - - to
+    - 43.35
+    - 43.65
+  - - stay
+    - 43.65
+    - 43.83
+  - - your
+    - 43.83
+    - 44.13
+  - - character,
+    - 44.13
+    - 44.59
+  - - check
+    - 44.93
+    - 45.17
+  - - the
+    - 45.17
+    - 45.45
+  - - face,
+    - 45.45
+    - 45.75
+  - - not
+    - 46.11
+    - 46.29
+  - - just
+    - 46.29
+    - 46.53
+  - - the
+    - 46.53
+    - 46.73
+  - - clock.
+    - 46.73
+    - 46.93
+- t: 2.985
+  type: kin
+  kind: slam
+  id: slam_notthatsimple
+  text: NOT THAT SIMPLE
+  caps:
+  - 50
+  - 40
+  - 32
+  place: auto
+  place_opts:
+    prefer:
+    - c
+    - lc
+    - uc
+    - ml
+    - mr
+  dur: 1.3s
+  kick: 0.02
+- t: 44.847
+  type: kin
+  kind: slam
+  id: slam_checktheface
+  text: CHECK THE FACE
+  caps:
+  - 52
+  - 42
+  - 34
+  place: auto
+  place_opts:
+    prefer:
+    - c
+    - lc
+    - uc
+    - ml
+    - mr
+  dur: 1.6s
+  kick: 0.02

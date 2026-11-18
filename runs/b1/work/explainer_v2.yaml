@@ -1,0 +1,41 @@
+# Job B: 20 s motion-graphics explainer, 1920x1080, 24 fps. Type and panels by the editor;
+# the bars are a shapes-only plate drawn by work/plate_v2.py (600 s = 1600 px, 147 s = 392 px).
+version: 1
+fps: 24
+size: [1920, 1080]
+free_cuts: true
+end: 20s
+events:
+  # 1. We timed one video clip two ways on the same graphics card.
+  - {t: 0s, type: cut, id: s1, color: "#0E0E0E"}
+  - {t: 0.3s, type: titlecard, kicker: "WE TIMED", lines: ["ONE VIDEO CLIP", "TWO WAYS"], sub: "ON THE SAME GRAPHICS CARD", dur: 3.8s}
+
+  # 2. With the standard 20 steps it took 600 seconds.
+  - {t: 4.2s, type: cut, id: s2, src: work/plate_v2.mkv, ss: 4.2}
+  - {t: 4.6s, type: kin, kind: slam, text: "WITH THE STANDARD 20 STEPS", color: "#F4F4F1", cap: 44, place: {cx: 960, cy: 215, cap: 44}, dur: 3.4s}
+  - {t: 5.0s, type: panel, id: p600, x: 360, y: 320, w: 1200, label: "IT TOOK",
+     figures: [{text: "600", sub: "SECONDS", count: 30, ink: magenta_ink, size: 220}], dur: 3.5s}
+
+  # 3. With a 4-step speed LoRA it took 147 seconds.
+  - {t: 8.6s, type: cut, id: s3, src: work/plate_v2.mkv, ss: 8.6}
+  - {t: 9.0s, type: kin, kind: slam, text: "WITH A 4-STEP SPEED LORA", color: "#F4F4F1", cap: 44, place: {cx: 960, cy: 215, cap: 44}, dur: 3.4s}
+  - {t: 9.4s, type: panel, id: p147, x: 360, y: 320, w: 1200, label: "IT TOOK",
+     figures: [{text: "147", sub: "SECONDS", count: 8, ink: cyan_ink, size: 220}], dur: 3.1s}
+
+  # 4a. The two timings side by side, bars to scale.
+  - {t: 13.0s, type: cut, id: s4, src: work/plate_v2.mkv, ss: 13.0}
+  - {t: 13.5s, type: panel, id: pa, x: 160, y: 285, w: 740, label: "STANDARD · 20 STEPS",
+     figures: [{text: "600", sub: "SECONDS", ink: magenta_ink, size: 150}], dur: 1.6s}
+  - {t: 13.5s, type: panel, id: pb, x: 1020, y: 285, w: 740, label: "SPEED LORA · 4 STEPS",
+     figures: [{text: "147", sub: "SECONDS", ink: cyan_ink, size: 150}], dur: 1.6s}
+
+  # 4b. That is 4.1 times as fast.
+  - {t: 15.2s, type: cut, id: s4b, color: "#0E0E0E"}
+  - {t: 15.4s, type: kin, kind: slam, text: "THAT IS", color: "#F4F4F1", cap: 40, place: {cx: 960, cy: 200, cap: 40}, dur: 2.1s}
+  - {t: 15.5s, type: kicker, id: ratio, x: 960, y: 300, anchor: center, lines: ["4.1"], band: "4.1", size: 240, dur: 2.0s}
+  - {t: 15.8s, type: kin, kind: slam, text: "TIMES AS FAST", color: "#F4F4F1", cap: 84, place: {cx: 960, cy: 760, cap: 84}, dur: 1.7s}
+
+  # 5. Fewer steps, fewer seconds.
+  - {t: 17.6s, type: cut, id: s5, color: "#0E0E0E"}
+  - {t: 17.9s, type: kin, kind: sliced, text: "FEWER STEPS", color: "#F4F4F1", cap: 100, place: {cx: 960, cy: 410, cap: 100}, dur: 2.0s}
+  - {t: 18.5s, type: kin, kind: slam, text: "FEWER SECONDS", color: "#F4F4F1", cap: 100, place: {cx: 960, cy: 690, cap: 100}, dur: 1.4s}

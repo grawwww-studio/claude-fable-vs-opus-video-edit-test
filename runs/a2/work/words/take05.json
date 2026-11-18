@@ -1,0 +1,106 @@
+{
+ "audio": "material/takes/take05.mp4",
+ "duration": 8.7253125,
+ "model": "medium",
+ "words": [
+  {
+   "word": "Now",
+   "start": 0.0,
+   "end": 0.36,
+   "p": 0.961
+  },
+  {
+   "word": "each",
+   "start": 0.36,
+   "end": 0.7,
+   "p": 0.881
+  },
+  {
+   "word": "one:",
+   "start": 0.7,
+   "end": 1.24,
+   "p": 0.997
+  },
+  {
+   "word": "Same",
+   "start": 1.38,
+   "end": 1.72,
+   "p": 0.993
+  },
+  {
+   "word": "three",
+   "start": 1.72,
+   "end": 2.02,
+   "p": 0.91
+  },
+  {
+   "word": "seeds,",
+   "start": 2.02,
+   "end": 2.4,
+   "p": 0.993
+  },
+  {
+   "word": "both",
+   "start": 2.8,
+   "end": 3.08,
+   "p": 0.996
+  },
+  {
+   "word": "shots,",
+   "start": 3.08,
+   "end": 3.5,
+   "p": 0.995
+  },
+  {
+   "word": "all",
+   "start": 3.82,
+   "end": 4.02,
+   "p": 0.999
+  },
+  {
+   "word": "at",
+   "start": 4.02,
+   "end": 4.2,
+   "p": 0.999
+  },
+  {
+   "word": "once.",
+   "start": 4.2,
+   "end": 4.5,
+   "p": 0.999
+  },
+  {
+   "word": "Watch",
+   "start": 5.12,
+   "end": 5.32,
+   "p": 0.996
+  },
+  {
+   "word": "her",
+   "start": 5.32,
+   "end": 5.56,
+   "p": 0.996
+  },
+  {
+   "word": "eyes",
+   "start": 5.56,
+   "end": 5.94,
+   "p": 0.999
+  },
+  {
+   "word": "and",
+   "start": 5.94,
+   "end": 6.24,
+   "p": 0.989
+  },
+  {
+   "word": "freckles.",
+   "start": 6.24,
+   "end": 6.72,
+   "p": 0.999
+  }
+ ],
+ "script": null,
+ "glossary": [],
+ "hints": []
+}

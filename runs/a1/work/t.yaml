@@ -1,0 +1,41 @@
+version: 1
+piece: "short-speedups"
+route: client
+format: {size: [1080, 1920], fps: 24}
+source: {video: ../material/takes/take06.mp4, words: words/take06.json}
+keep:
+  - {id: hook,   src: ../material/takes/take06.mp4, words: words/take06.json, from: 0.0, to: 4.45, role: cold-open}
+  - {id: mae,    src: ../material/takes/take01.mp4, words: words/take01.json, from: 0.0, to: 6.65}
+  - {id: today,  src: ../material/takes/take02.mp4, words: words/take02.json, from: 0.0, to: 8.0}
+  - {id: one,    src: ../material/takes/take04.mp4, words: words/take04.json, from: 0.0, to: 3.3}
+  - {id: each,   src: ../material/takes/take05.mp4, words: words/take05.json, from: 0.0, to: 8.6}
+  - {id: score,  src: ../material/takes/take07.mp4, words: words/take07.json, from: 0.0, to: 6.5}
+  - {id: caveat, src: ../material/takes/take10.mp4, words: words/take10.json, from: 0.0, to: 5.8}
+  - {id: point,  src: ../material/takes/take09.mp4, words: words/take09.json, from: 0.0, to: 6.5}
+look:
+  font: ../brand/anybody-latin-wdth-normal.woff2
+  weight: 900
+  case: upper
+  ink: "#111111"
+  plate: "#FBFBFA"
+  accent: "#FFD400"
+  band_ink: "#111111"
+  fill: "#FBFBFA"
+  outline: "#111111"
+  outline_w: 0.10
+  contrast: auto
+  card: {ground: "#0E0E0E", ink: "#F4F4F1", accent: "#FFD400", muted: "#8E8E8A"}
+captions: {size: 36, position: 0.8}
+limits: {clip_trim_s: 3.5}
+effects:
+  - {keep: hook, at: "not that simple", do: slam, text: "NOT THAT SIMPLE", cap: 50, dur: 1.4}
+  - {keep: mae, at: "one RTX 4090", do: kicker, lines: ["ONE RTX 4090"], dur: 2.2}
+  - {keep: today, at: "Seconds, against her face", do: broll, clip: ../material/results/result01.mp4, dur: 3.3,
+     prompt: "Close shot of the test character, base model at 20 steps, no speed-up", model: "MiniMax H3 base, 20 steps"}
+  - {keep: each, at: "Same three seeds", do: broll, clip: ../material/results/result03.mp4, dur: 3.5,
+     prompt: "Close shot of the test character with the 8-step speed LoRA", model: "MiniMax H3 + 8-step speed LoRA"}
+  - {keep: each, at: "Watch her eyes", do: broll, clip: ../material/results/result02.mp4, dur: 3.4,
+     prompt: "Close shot of the test character with the 4-step speed LoRA", model: "MiniMax H3 + 4-step speed LoRA"}
+  - {keep: score, at: "So I watched them all", do: broll, clip: ../material/results/result04.mp4, dur: 3.7,
+     prompt: "Close shot of the test character with the 6-step speed LoRA", model: "MiniMax H3 + 6-step speed LoRA"}
+  - {keep: point, at: "check the face", do: slam, text: "CHECK THE FACE", cap: 52, dur: 1.6}

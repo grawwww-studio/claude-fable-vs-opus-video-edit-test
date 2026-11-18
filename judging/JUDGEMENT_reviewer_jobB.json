@@ -1,0 +1,141 @@
+{
+ "judging_order": [
+  "J",
+  "C",
+  "R",
+  "G",
+  "D"
+ ],
+ "videos": {
+  "J": {
+   "scores": {
+    "opening_clarity": 1,
+    "message_accuracy": 2,
+    "pacing_structure": 1,
+    "legibility": 1,
+    "craft_polish": 1,
+    "brand_sound": 1
+   },
+   "reasons": {
+    "opening_clarity": "Title in ~1s but 600/147 only appear at ~5.5s; the 4.1 hero arrives at ~14s.",
+    "message_accuracy": "600, 147, 4.1 times as fast, 20 steps, 4-step LoRA, fewer steps/fewer seconds all present, in order.",
+    "pacing_structure": "Clear start-middle-end but 600 and 147 each held ~5s with a slow bar; blank beats at ~3.3s,~12s,~16s; ends on a held card.",
+    "legibility": "Big numbers fine; closing 'FEWER STEPS,' stays slice-glitched for the whole beat and reads poorly; tiny mono labels.",
+    "craft_polish": "Bars give real meaning (147 bar ~1/4 of 600); persistent line-slice glitch on final line, flat dark/blank dips between scenes.",
+    "brand_sound": "Anybody + Spline Mono, cyan/magenta, AI tag intact, silent; large white cards rather than dark cards; cyan offset on last line reads like a shadow."
+   },
+   "total": 7,
+   "defects": [
+    "~16.6-19.5s 'FEWER STEPS,' sliced/striped and hard to read",
+    "blank frames ~3.2s, ~12s, ~16.2s"
+   ],
+   "claims_check": "Matches the brief. No invented numbers."
+  },
+  "R": {
+   "scores": {
+    "opening_clarity": 1,
+    "message_accuracy": 2,
+    "pacing_structure": 1,
+    "legibility": 1,
+    "craft_polish": 1,
+    "brand_sound": 1
+   },
+   "reasons": {
+    "opening_clarity": "Same read as above: title first, numbers only at ~5.5s, ratio at ~14s.",
+    "message_accuracy": "All required numbers and sentences present and correct, nothing invented.",
+    "pacing_structure": "Clear structure, long holds on single numbers, blank dips between scenes.",
+    "legibility": "Big numbers readable; the last-beat 'FEWER STEPS,' is sliced for ~3s.",
+    "craft_polish": "Meaningful bar growth; persistent glitch on the closing line; blank dip frames.",
+    "brand_sound": "Correct fonts/colours/AI tag, silent; white cards, cyan offset on closing line."
+   },
+   "total": 7,
+   "defects": [
+    "~16.6-19.5s sliced 'FEWER STEPS,'",
+    "blank frames ~3.2s, ~12s, ~16.2s"
+   ],
+   "claims_check": "Matches the brief. No invented numbers. NOTE: judged independently, but on the contact sheets this video looked visually identical to J; I did not compare files (a PSNR check was blocked and I did not pursue it)."
+  },
+  "C": {
+   "scores": {
+    "opening_clarity": 1,
+    "message_accuracy": 2,
+    "pacing_structure": 1,
+    "legibility": 1,
+    "craft_polish": 1,
+    "brand_sound": 1
+   },
+   "reasons": {
+    "opening_clarity": "Title 'ONE CLIP TIMED TWO WAYS' clear at ~0.6s, but the numbers only show at ~6.5s and the 600/147 cards are small.",
+    "message_accuracy": "600, 147, 4.1X AS FAST, 20 steps, 4 steps, fewer steps/fewer seconds present. Count-up passes through non-brief numbers (198, 454, 568; 49, 111, 139) as animation only; '4.1X' for '4.1 times'.",
+    "pacing_structure": "Four sequential scenes with ~0.5s black gaps between them and a black last frame; long holds on small cards.",
+    "legibility": "600/147 cards ~14% of frame width, bar labels tiny in white boxes: weak on a phone. Headline lines large and OK.",
+    "craft_polish": "Count-up and wipes are purposeful but the screen is mostly empty; closing line is said twice (yellow tag + headline).",
+    "brand_sound": "Fonts and AI tag correct, silent; small yellow text labels ('SAME GRAPHICS CARD', tag) violate yellow-only-as-band; bar labels have white boxes."
+   },
+   "total": 7,
+   "defects": [
+    "blank gaps ~3.2s,~6s,~12.5s,~16s",
+    "last frame ~19.8s black"
+   ],
+   "claims_check": "Numbers match; count-up transient values are not in the brief; '4.1X' is a paraphrase."
+  },
+  "G": {
+   "scores": {
+    "opening_clarity": 1,
+    "message_accuracy": 2,
+    "pacing_structure": 2,
+    "legibility": 1,
+    "craft_polish": 1,
+    "brand_sound": 1
+   },
+   "reasons": {
+    "opening_clarity": "'WE TIMED ONE VIDEO CLIP TWO WAYS' big at ~0.5s; numbers appear at ~4.5s, quicker than most.",
+    "message_accuracy": "Every required number and sentence in order, 4.1 as a yellow band with #111 text, TIMES AS FAST, FEWER STEPS / FEWER SECONDS. Count-up passes 112, 363 etc. and 129 as animation.",
+    "pacing_structure": "Tight sequence, a distinct comparison scene, a stand-alone 4.1 beat, a clean final hold; moves faster than the others.",
+    "legibility": "Hero numbers large; stand-alone 4.1 very readable; 'FEWER STEPS' is sliced throughout its beat; yellow 'WE TIMED' is tiny.",
+    "craft_polish": "Best sequence logic (600 bar then 147 bar then side by side), count-ups with purpose; persistent glitch on 'FEWER STEPS' and short black dips.",
+    "brand_sound": "Fonts, AI tag, magenta/cyan correct, yellow band with dark text correct; yellow used as text colour in 'WE TIMED' label (brief forbids); silent."
+   },
+   "total": 8,
+   "defects": [
+    "~17-19.8s 'FEWER STEPS' stays sliced",
+    "black dips ~9s, ~16s"
+   ],
+   "claims_check": "Numbers and claims match; transient count-up values only."
+  },
+  "D": {
+   "scores": {
+    "opening_clarity": 1,
+    "message_accuracy": 2,
+    "pacing_structure": 1,
+    "legibility": 1,
+    "craft_polish": 0,
+    "brand_sound": 2
+   },
+   "reasons": {
+    "opening_clarity": "Opens straight on 'TWO WAYS' in a white card at 0s with a tiny 'we timed one video clip' label: instant but the label is unreadable and the claim is vague until the numbers at ~5s.",
+    "message_accuracy": "600, 147, 4.1 times as fast, fewer steps/fewer seconds all present; both numbers in one card with bars so '600 against 147' is read in one glance. Count-up through 86, 232... and 57,123,145 is animation. '4.1 TIMES' and 'AS FAST' split across two beats.",
+    "pacing_structure": "Good build to the comparison, but the 4.1 TIMES AS FAST phrase is broken into two beats with a blank gap, then a flash and blank before the closing line.",
+    "legibility": "Numbers and bars fine on the comparison; 'AS FAST' is shown sliced and blurred; tiny closing tag.",
+    "craft_polish": "Single flat-grey frame at ~17.5s (full-frame flash) and heavy slice/blur glitches on 'AS FAST'; blank dips.",
+    "brand_sound": "Anybody/Spline Mono, cyan/magenta, yellow only as marker band with dark text, AI tag intact, silent."
+   },
+   "total": 7,
+   "defects": [
+    "~17.5s one flat grey frame",
+    "~15.5-17.2s 'AS FAST' sliced/blurred",
+    "blank dips ~3s, ~12.5s, ~14.3s"
+   ],
+   "claims_check": "Numbers match the brief; no invented items beyond count-up transients."
+  }
+ },
+ "ranking": [
+  "G",
+  "J",
+  "R",
+  "D",
+  "C"
+ ],
+ "separator": "The best (G) builds one idea per beat, ends the numbers with a huge stand-alone 4.1 and holds cleanly; the worst (C) puts small cards in an empty frame with tiny labels and black gaps, so it does not read at a glance. All five share a sliced-glitch closing line and count-up numbers.",
+ "notes": "Silent videos; audio not judged. No provenance info used."
+}

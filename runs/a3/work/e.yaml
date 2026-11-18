@@ -1,0 +1,744 @@
+version: 1
+piece: speedups-vs-face-short
+fps: 24
+size:
+- 1080
+- 1920
+mosca: true
+camera_blur: true
+crf: 20
+bitrate: 3M
+route: client
+look:
+  font: brand/anybody-latin-wdth-normal.woff2
+  weight: 900
+  case: upper
+  ink: '#111111'
+  plate: '#FBFBFA'
+  accent: '#FFD400'
+  band_ink: '#111111'
+  fill: '#FBFBFA'
+  outline: '#111111'
+  outline_w: 0.1
+  contrast: auto
+  card:
+    ground: '#0E0E0E'
+    ink: '#F4F4F1'
+    accent: '#00A0DC'
+    muted: '#8E8E8A'
+captions:
+  style:
+    font: brand/anybody-latin-wdth-normal.woff2
+    fill: '#FBFBFA'
+    outline: '#000000'
+    outline_w: 0.12
+    highlight: '#00A0DC'
+    position: 0.74
+    size: 36
+    case: upper
+    weight: 900
+    contrast: auto
+talk:
+  takes:
+  - src: material/takes/take06.mp4
+    words: work/words/take06.json
+    from: 0.0
+    to: 4.4
+  - src: material/takes/take01.mp4
+    words: work/words/take01.json
+    from: 0.0
+    to: 6.6
+  - src: material/takes/take02.mp4
+    words: work/words/take02.json
+    from: 0.0
+    to: 6.5
+  - src: material/takes/take03.mp4
+    words: work/words/take03.json
+    from: 0.0
+    to: 5.6
+  - src: material/takes/take04.mp4
+    words: work/words/take04.json
+    from: 0.0
+    to: 3.25
+  - src: material/takes/take07.mp4
+    words: work/words/take07.json
+    from: 0.0
+    to: 5.4
+  - src: material/takes/take05.mp4
+    words: work/words/take05.json
+    from: 0.0
+    to: 6.9
+  - src: material/takes/take10.mp4
+    words: work/words/take10.json
+    from: 0.0
+    to: 5.7
+  - src: material/takes/take09.mp4
+    words: work/words/take09.json
+    from: 0.0
+    to: 4.9
+  jump:
+    pause_ms: 400
+    leave_ms: 140
+    ceiling_db: auto
+  ab:
+    every_s: 4.5
+    min_shot_s: 1.5
+  follow: true
+events:
+- t: 0
+  type: podcast
+  id: caps
+  words:
+  - - Fewer
+    - 0.0
+    - 0.56
+  - - steps
+    - 0.56
+    - 0.88
+  - - should
+    - 0.88
+    - 1.28
+  - - mean
+    - 1.28
+    - 1.58
+  - - fewer
+    - 1.58
+    - 1.94
+  - - seconds.
+    - 1.94
+    - 2.46
+  - - It's
+    - 2.688
+    - 3.068
+  - - not
+    - 3.068
+    - 3.228
+  - - that
+    - 3.228
+    - 3.528
+  - - simple.
+    - 3.528
+    - 3.888
+  - - Hi,
+    - 4.125
+    - 4.565
+  - - I'm
+    - 4.865
+    - 5.045
+  - - Mae.
+    - 5.045
+    - 5.285
+  - - I
+    - 5.435
+    - 5.695
+  - - make
+    - 5.695
+    - 5.915
+  - - AI
+    - 5.915
+    - 6.255
+  - - video
+    - 6.255
+    - 6.655
+  - - 'on'
+    - 6.655
+    - 6.995
+  - - one
+    - 6.995
+    - 7.295
+  - - RTX
+    - 7.295
+    - 7.995
+  - - 4090,
+    - 7.995
+    - 8.635
+  - - and
+    - 8.635
+    - 9.075
+  - - I
+    - 9.075
+    - 9.375
+  - - time
+    - 9.375
+    - 9.695
+  - - everything.
+    - 9.695
+    - 10.295
+  - - 'Today:'
+    - 10.458
+    - 10.978
+  - - the
+    - 11.358
+    - 11.538
+  - - speed-ups
+    - 11.538
+    - 11.938
+  - - people
+    - 11.938
+    - 12.218
+  - - recommend
+    - 12.218
+    - 12.778
+  - - for
+    - 12.778
+    - 13.078
+  - - MiniMax
+    - 13.078
+    - 13.678
+  - - H3.
+    - 13.678
+    - 14.818
+  - - Seconds,
+    - 15.158
+    - 15.518
+  - - against
+    - 15.518
+    - 16.158
+  - - her
+    - 16.158
+    - 16.458
+  - - face.
+    - 16.458
+    - 16.758
+  - - You
+    - 16.958
+    - 17.158
+  - - might
+    - 17.158
+    - 17.398
+  - - know
+    - 17.398
+    - 17.618
+  - - her.
+    - 17.618
+    - 18.038
+  - - Last
+    - 18.207
+    - 18.467
+  - - time,
+    - 18.467
+    - 18.827
+  - - a
+    - 19.007
+    - 19.207
+  - - refiner
+    - 19.207
+    - 19.587
+  - - redrew
+    - 19.587
+    - 19.967
+  - - her
+    - 19.967
+    - 20.267
+  - - face
+    - 20.267
+    - 20.507
+  - - in
+    - 20.507
+    - 20.827
+  - - six
+    - 20.827
+    - 21.127
+  - - runs
+    - 21.127
+    - 21.487
+  - - of
+    - 21.487
+    - 21.807
+  - - six.
+    - 21.807
+    - 22.107
+  - - One
+    - 22.25
+    - 22.61
+  - - character,
+    - 22.61
+    - 23.13
+  - - one
+    - 23.59
+    - 23.85
+  - - card,
+    - 23.85
+    - 24.19
+  - - one
+    - 24.69
+    - 24.91
+  - - session.
+    - 24.91
+    - 25.31
+  - - A
+    - 25.5
+    - 25.82
+  - - face
+    - 25.82
+    - 26.02
+  - - score
+    - 26.02
+    - 26.4
+  - - only
+    - 26.4
+    - 26.84
+  - - looks
+    - 26.84
+    - 27.08
+  - - at
+    - 27.08
+    - 27.28
+  - - the
+    - 27.28
+    - 27.46
+  - - face.
+    - 27.46
+    - 27.82
+  - - So
+    - 27.99
+    - 28.39
+  - - I
+    - 28.39
+    - 28.73
+  - - watched
+    - 28.73
+    - 28.97
+  - - them
+    - 28.97
+    - 29.27
+  - - all
+    - 29.27
+    - 29.63
+  - - side
+    - 29.63
+    - 29.91
+  - - by
+    - 29.91
+    - 30.19
+  - - side.
+    - 30.19
+    - 30.47
+  - - Now
+    - 30.667
+    - 31.027
+  - - each
+    - 31.027
+    - 31.367
+  - - 'one:'
+    - 31.367
+    - 31.907
+  - - Same
+    - 32.047
+    - 32.387
+  - - three
+    - 32.387
+    - 32.687
+  - - seeds,
+    - 32.687
+    - 33.067
+  - - both
+    - 33.467
+    - 33.747
+  - - shots,
+    - 33.747
+    - 34.167
+  - - all
+    - 34.487
+    - 34.687
+  - - at
+    - 34.687
+    - 34.867
+  - - once.
+    - 34.867
+    - 35.167
+  - - Watch
+    - 35.578
+    - 35.778
+  - - her
+    - 35.778
+    - 36.018
+  - - eyes
+    - 36.018
+    - 36.398
+  - - and
+    - 36.398
+    - 36.698
+  - - freckles.
+    - 36.698
+    - 37.178
+  - - What
+    - 37.375
+    - 37.555
+  - - I
+    - 37.555
+    - 37.795
+  - - didn't
+    - 37.795
+    - 38.135
+  - - 'measure:'
+    - 38.135
+    - 38.655
+  - - lip-sync,
+    - 39.055
+    - 39.555
+  - - motion,
+    - 39.995
+    - 40.435
+  - - other
+    - 40.935
+    - 41.155
+  - - characters,
+    - 41.155
+    - 41.735
+  - - longer
+    - 42.295
+    - 42.475
+  - - clips.
+    - 42.475
+    - 42.915
+  - - If
+    - 43.083
+    - 43.263
+  - - your
+    - 43.263
+    - 43.583
+  - - character
+    - 43.583
+    - 43.883
+  - - has
+    - 43.883
+    - 44.183
+  - - to
+    - 44.183
+    - 44.483
+  - - stay
+    - 44.483
+    - 44.663
+  - - your
+    - 44.663
+    - 44.963
+  - - character,
+    - 44.963
+    - 45.423
+  - - check
+    - 45.763
+    - 46.003
+  - - the
+    - 46.003
+    - 46.283
+  - - face,
+    - 46.283
+    - 46.583
+  - - not
+    - 46.943
+    - 47.123
+  - - just
+    - 47.123
+    - 47.363
+  - - the
+    - 47.363
+    - 47.563
+  - - clock.
+    - 47.563
+    - 47.763
+- t: 2.985
+  type: kin
+  kind: sliced
+  id: slam_notsimple
+  text: NOT SIMPLE
+  caps:
+  - 62
+  - 50
+  - 40
+  place: auto
+  place_opts:
+    prefer:
+    - c
+    - lc
+    - uc
+    - ml
+    - mr
+  dur: 1.2s
+  kick: 0.02
+  color: '#F4F4F1'
+- t: 4.865
+  type: panel
+  id: lt_mae
+  w: 792
+  label: AI VIDEO ON ONE RTX 4090
+  label_px: 29
+  tick: k
+  place: auto
+  place_opts:
+    anchor:
+    - 0.2
+    - 0.62
+    reach: 0.3
+  figures:
+  - text: MAE
+    ink: k
+    size: 40
+  dur: 3.4s
+  phase: over
+- t: 16.075
+  type: kin
+  kind: slam
+  id: slam_herface
+  text: HER FACE
+  caps:
+  - 84
+  - 67
+  - 55
+  place: auto
+  place_opts:
+    prefer:
+    - c
+    - lc
+    - uc
+    - ml
+    - mr
+  dur: 1s
+  kick: 0.02
+- t: 45.68
+  type: kin
+  kind: slam
+  id: slam_checktheface
+  text: CHECK THE FACE
+  caps:
+  - 52
+  - 42
+  - 34
+  place: auto
+  place_opts:
+    prefer:
+    - c
+    - lc
+    - uc
+    - ml
+    - mr
+  dur: 1.6s
+  kick: 0.02
+- t: f0
+  type: grid
+  id: hook_0
+  tiles:
+  - id: h1
+    src: material/results/result01.mp4
+    ss: 0.0
+    rect:
+    - 90
+    - 440
+    - 900
+    - 429
+    window: &id001
+    - 1344
+    - 640
+    - 0
+    - 40
+    label: BASE · 20 STEPS · 600 S
+    loop: true
+  - id: h2
+    src: material/results/result02.mp4
+    ss: 0.0
+    rect:
+    - 90
+    - 890
+    - 900
+    - 429
+    window: *id001
+    label: 4-STEP LORA · 147 S
+    loop: true
+- t: f407
+  type: grid
+  id: her_407
+  tiles:
+  - id: c1
+    src: material/results/result01.mp4
+    ss: 0.0
+    rect:
+    - 60
+    - 320
+    - 960
+    - 960
+    window: &id002
+    - 768
+    - 768
+    - 288
+    - 0
+    label: THE TEST CHARACTER
+    loop: true
+- t: f433
+  type: grid
+  id: her_433
+  tiles:
+  - id: c1
+    src: material/results/result01.mp4
+    ss: 1.083
+    rect:
+    - 60
+    - 320
+    - 960
+    - 960
+    window: *id002
+    label: THE TEST CHARACTER
+    loop: true
+- t: f670
+  type: grid
+  id: side_670
+  tiles:
+  - id: g1
+    src: material/results/result01.mp4
+    ss: 0.0
+    rect:
+    - 36
+    - 300
+    - 492
+    - 492
+    window: *id002
+    label: BASE · 600 S
+    loop: true
+  - id: g2
+    src: material/results/result03.mp4
+    ss: 0.0
+    rect:
+    - 552
+    - 300
+    - 492
+    - 492
+    window: *id002
+    label: 8-STEP · 267 S
+    loop: true
+  - id: g3
+    src: material/results/result04.mp4
+    ss: 0.0
+    rect:
+    - 36
+    - 848
+    - 492
+    - 492
+    window: *id002
+    label: 6-STEP · 208 S
+    loop: true
+  - id: g4
+    src: material/results/result02.mp4
+    ss: 0.0
+    rect:
+    - 552
+    - 848
+    - 492
+    - 492
+    window: *id002
+    label: 4-STEP · 147 S
+    loop: true
+- t: f736
+  type: grid
+  id: side_736
+  tiles:
+  - id: g1
+    src: material/results/result01.mp4
+    ss: 2.75
+    rect:
+    - 36
+    - 300
+    - 492
+    - 492
+    window: *id002
+    label: BASE · 600 S
+    loop: true
+  - id: g2
+    src: material/results/result03.mp4
+    ss: 2.75
+    rect:
+    - 552
+    - 300
+    - 492
+    - 492
+    window: *id002
+    label: 8-STEP · 267 S
+    loop: true
+  - id: g3
+    src: material/results/result04.mp4
+    ss: 2.75
+    rect:
+    - 36
+    - 848
+    - 492
+    - 492
+    window: *id002
+    label: 6-STEP · 208 S
+    loop: true
+  - id: g4
+    src: material/results/result02.mp4
+    ss: 2.75
+    rect:
+    - 552
+    - 848
+    - 492
+    - 492
+    window: *id002
+    label: 4-STEP · 147 S
+    loop: true
+- t: f848
+  type: grid
+  id: side_848
+  tiles:
+  - id: g1
+    src: material/results/result01.mp4
+    ss: 2.417
+    rect:
+    - 36
+    - 300
+    - 492
+    - 492
+    window: *id002
+    label: BASE · 600 S
+    loop: true
+  - id: g2
+    src: material/results/result03.mp4
+    ss: 2.417
+    rect:
+    - 552
+    - 300
+    - 492
+    - 492
+    window: *id002
+    label: 8-STEP · 267 S
+    loop: true
+  - id: g3
+    src: material/results/result04.mp4
+    ss: 2.417
+    rect:
+    - 36
+    - 848
+    - 492
+    - 492
+    window: *id002
+    label: 6-STEP · 208 S
+    loop: true
+  - id: g4
+    src: material/results/result02.mp4
+    ss: 2.417
+    rect:
+    - 552
+    - 848
+    - 492
+    - 492
+    window: *id002
+    label: 4-STEP · 147 S
+    loop: true
+- t: 35.55
+  type: tile
+  tile: g4
+  punch: 0.12
+  d: 0.3
+  state: highlight
+- t: 48.0
+  type: cut
+  id: endcard
+  color: '#0E0E0E'
+- t: 48.15
+  type: titlecard
+  kicker: THE FULL TEST
+  lines:
+  - SPEED-UPS
+  - VS HER FACE
+  sub: LAST WEEK'S EPISODE
+  cap: 44
+  dur: 3.05s
+end: 51.5s

@@ -1,0 +1,40 @@
+{
+ "seconds": 46.917,
+ "effects": [
+  {
+   "fx": "slam",
+   "keep": "point",
+   "at": "check the face",
+   "t": 44.555
+  }
+ ],
+ "ai": [],
+ "caption_words": 112,
+ "style_kit": null,
+ "checks": {
+  "limits": {
+   "slams_per_min": 3,
+   "slam_gap_s": 4.0,
+   "slam_words": 3,
+   "slam_chars": 16,
+   "kicker_words": 4,
+   "kicker_chars": 24,
+   "kicker_lines": 2,
+   "broll_s": [
+    2.5,
+    6.0
+   ],
+   "cold_open_s": 5.0,
+   "ground_s": 10.0,
+   "clip_hold_s": 0.5,
+   "clip_trim_s": 1.0
+  },
+  "glossary": [
+   "Mae",
+   "MiniMax",
+   "RTX"
+  ],
+  "slams": 1,
+  "kickers": 0
+ }
+}
